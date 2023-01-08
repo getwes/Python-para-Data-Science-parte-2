@@ -8,4 +8,3 @@ são propostas de melhoria para a linguagem python
 import this
 
 """
-import this
