@@ -8,3 +8,4 @@ Zem of python
 import this
 
 """
+import this
