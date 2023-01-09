@@ -12,3 +12,4 @@ else:
     print('Maior de idade')
 
 #em python um novo bloco é iniciado quando se coloca os dois pontos :
+# sempre lenbrando da regra de identação 4 espaços
