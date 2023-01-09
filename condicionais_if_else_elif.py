@@ -15,5 +15,17 @@ elif idade == 26:
 else:
     print('Maior de idade')
 
+if idade < 18:
+    print('menor de idade')
+
+if idade  18:
+    print('menor de idade')
+
+if idade < 18:
+    print('menor de idade')
+
+if idade < 18:
+    print('menor de idade')
+
 #em python um novo bloco é iniciado quando se coloca os dois pontos :
 # sempre lenbrando da regra de identação 4 espaços
