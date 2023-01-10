@@ -7,7 +7,7 @@ operadores binários:
 - and, or
 """
 
-ativo = False
+ativo = True
 logado = True
 
 if ativo and logado:
