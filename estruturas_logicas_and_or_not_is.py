@@ -6,7 +6,10 @@ operadores unários:
 operadores binários:
 - and, or
 
-para 'and', ambos os valores precisam ser Tre
+Regras de funcionamento
+para o 'and', ambos os valores precisam ser True
+para o 'or', um ou outro valor precisa ser True
+para o 'not', o valor do boolean é invertido, ou seja, se for true, vira false, se for false vira true
 """
 
 ativo = True
