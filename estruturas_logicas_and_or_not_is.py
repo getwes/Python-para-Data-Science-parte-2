@@ -10,5 +10,5 @@ operadores binários:
 ativo = True
 logado = False
 
-if ativo:
-    print('Usuário ativo no sistema')
+if ativo and logado:
+    print('bem-vindo usuáriio!')
