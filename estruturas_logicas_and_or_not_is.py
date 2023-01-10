@@ -7,8 +7,8 @@ operadores binários:
 - and, or
 """
 
-ativo = True
-logado = False
+ativo = False
+logado = True
 
 if ativo and logado:
     print('bem-vindo usuáriio!')
