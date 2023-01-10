@@ -13,8 +13,8 @@ para o 'not', o valor do boolean é invertido, ou seja, se for true, vira false,
 para o 'is' o valor é comparado com um segundo. # usa-se para comparação
 """
 
-ativo = True
-logado = True
+ativo = False
+logado = False
 """"
 if ativo and logado:
     print('bem-vindo usuáriio!')
@@ -22,10 +22,10 @@ else:
     print('você precisa ativar sua conta. por favor, cheque seu e-mail')
 """
 
-if  ativo:
+if  ativo or logado:
     print('bem-vindo usuario')
     
 else:
     print('voce precisa ativar sua conta. por favor, cheque seu e-mail')
 #ativo é falso?
-print( ativo is True)
+#print( ativo is True)
