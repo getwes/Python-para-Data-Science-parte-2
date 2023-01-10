@@ -5,6 +5,8 @@ operadores unários:
 - not , is
 operadores binários:
 - and, or
+
+para 'and', ambos os valores precisam ser Tre
 """
 
 ativo = True
