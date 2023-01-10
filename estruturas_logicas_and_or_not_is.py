@@ -6,3 +6,9 @@ operadores unários:
 operadores binários:
 - and, or
 """
+
+ativo = True
+logado = False
+
+if ativo:
+    print('Usuário ativo no sistema')
