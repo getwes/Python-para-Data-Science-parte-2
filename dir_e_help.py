@@ -9,4 +9,5 @@ True
 >>> nome.isupper()
 False
 >>>
+deve ser realizado no terminal
 """
