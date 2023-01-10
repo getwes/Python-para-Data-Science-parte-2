@@ -5,7 +5,8 @@
  #if, else, elif
 
 
-idade = 26
+idade = 26   #em python um novo bloco é iniciado quando se coloca os dois pontos :
+# sempre lenbrando da regra de identação 4 espaços
 if idade < 18:
     print('Menor de idade')
 elif idade == 18:
@@ -15,6 +16,7 @@ elif idade == 26:
 else:
     print('Maior de idade')
 
+"""  
 if idade < 18:
     print('menor de idade')
 
@@ -26,6 +28,5 @@ if idade == 26:
 
 if idade > 18:
     print('maior de idade')
-
-#em python um novo bloco é iniciado quando se coloca os dois pontos :
-# sempre lenbrando da regra de identação 4 espaços
+"""
+# pode ser usado dessa maneira porem não é a mais adequada 
