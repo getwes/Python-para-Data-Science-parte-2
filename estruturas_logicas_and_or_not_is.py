@@ -10,7 +10,7 @@ Regras de funcionamento
 para o 'and', ambos os valores precisam ser True
 para o 'or', um ou outro valor precisa ser True
 para o 'not', o valor do boolean é invertido, ou seja, se for true, vira false, se for false vira true
-para o 'is' o valor é comparado com um segundo.
+para o 'is' o valor é comparado com um segundo. # usa-se para comparação
 """
 
 ativo = True
