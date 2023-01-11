@@ -32,3 +32,5 @@ for numero in lista:
     print(numero)
 
 #exemplo de for 3 (intnerando sobre um range)
+for numero in range(1, 10):
+    print(numero)
