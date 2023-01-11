@@ -14,7 +14,7 @@ para o 'is' o valor é comparado com um segundo. # usa-se para comparação
 """
 
 ativo = False
-logado = False
+logado = True
 """"
 if ativo and logado:
     print('bem-vindo usuáriio!')
@@ -22,10 +22,10 @@ else:
     print('você precisa ativar sua conta. por favor, cheque seu e-mail')
 """
 
-if  ativo or logado:
+if  ativo is logado:
     print('bem-vindo usuario')
     
 else:
     print('voce precisa ativar sua conta. por favor, cheque seu e-mail')
 #ativo é falso?
-#print( ativo is True)
+print( ativo is True)
