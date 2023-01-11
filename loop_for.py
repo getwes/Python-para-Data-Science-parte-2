@@ -34,6 +34,8 @@ for numero in lista:
 #exemplo de for 3 (intnerando sobre um range)
 """"
 range(valor_inicial, valor_final)
+
+obeservação: o valor final não é inclusive.
 """
 for numero in range(1, 10):
     print(numero)
