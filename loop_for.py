@@ -30,3 +30,5 @@ for letra in nome:
 #exemplo de for 2 (interando sobre uma lista)
 for numero in lista:
     print(numero)
+
+#exemplo de for 3 (intnerando sobre um range)
