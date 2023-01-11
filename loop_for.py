@@ -27,4 +27,4 @@ numeros = range(1, 10) # temos que transformar em uma lista
 for letra in nome:
     print(letra)
 
-#exemplo de for 2
+#exemplo de for 2 (interando sobre uma lista)
