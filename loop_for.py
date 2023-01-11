@@ -28,3 +28,5 @@ for letra in nome:
     print(letra)
 
 #exemplo de for 2 (interando sobre uma lista)
+for numero in lista:
+    print(numero)
