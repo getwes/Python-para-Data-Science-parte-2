@@ -14,5 +14,7 @@ string
 nome = 'geek university'
 lista
 
+lista = [1, 3, 5, 7, 9]
+range
 
 """
