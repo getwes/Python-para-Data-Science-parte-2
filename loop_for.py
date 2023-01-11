@@ -17,5 +17,7 @@ lista
 lista = [1, 3, 5, 7, 9]
 range
 numeros = range(1, 10)
-
 """
+nome = 'wesley'
+lista = [1, 3, 5, 7, 9]
+numeros = range(1, 10)
