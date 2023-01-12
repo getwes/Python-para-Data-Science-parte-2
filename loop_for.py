@@ -66,9 +66,9 @@ for i, v in enumerate(nome):
 """
 qtd = 5
 qtd = int(input('quantas vezes esse looop deve rodar?'))
-
+soma = 0
 for n in range(1, qtd+1):
     #print(f'imprimindo {n}')
      num = int(input(f'informe o {n}/{qtd} valor: '))
-     soma = soma +
-  
+     soma = soma + num
+print(f'a soma é {soma}')
