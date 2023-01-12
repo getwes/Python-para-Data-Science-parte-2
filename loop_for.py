@@ -68,5 +68,7 @@ qtd = 5
 qtd = int(input('quantas vezes esse looop deve rodar?'))
 
 for n in range(1, qtd+1):
-    print(f'imprimindo {n}')
-
+    #print(f'imprimindo {n}')
+     num = int(input(f'informe o {n}/{qtd} valor: '))
+     soma = soma +
+  
