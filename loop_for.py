@@ -40,6 +40,8 @@ obeservação: o valor final não é inclusive.
 nome = wesley freire
 nome[0:6] vai retornar wesley
 nome[8:13] vai retornar o freire
+mesmo que ultrapasse a quantidade de caracteres o valor vai ser o mesmo 
+
 """
 for numero in range(1, 10):
     print(numero)
