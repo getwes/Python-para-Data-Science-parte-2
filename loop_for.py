@@ -53,5 +53,3 @@ exemplo [8:14] ou 15 etc
 for i, v in enumerate(nome):
     print(nome[i])
 
-for first in nome:
-    print(first)
