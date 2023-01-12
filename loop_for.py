@@ -73,3 +73,7 @@ for n in range(1, qtd+1):
      soma = soma + num
 print(f'a soma é {soma}')
 """
+nome = 'wesley freire'
+
+for letra in nome:
+    print(letra, end='')
