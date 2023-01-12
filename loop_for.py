@@ -72,8 +72,11 @@ for n in range(1, qtd+1):
      num = int(input(f'informe o {n}/{qtd} valor: '))
      soma = soma + num
 print(f'a soma é {soma}')
-"""
+
 nome = 'wesley freire'
 
 for letra in nome:
     print(letra, end='') #end='' serve para juntar todas as letras em uma linha
+"""
+
+# ctrl + botão direito encima de print aparece a lista help 
