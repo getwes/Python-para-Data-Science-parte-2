@@ -24,12 +24,12 @@ numeros = range(1, 10) # temos que transformar em uma lista
 
 # exemplo de for 1 (interando em uma string)
 
-for letra in nome:
-    print(letra)
+#for letra in nome:
+    #print(letra)
 
 #exemplo de for 2 (interando sobre uma lista)
-for numero in lista:
-    print(numero)
+#for numero in lista:
+   # print(numero)
 
 #exemplo de for 3 (intnerando sobre um range)
 """"
@@ -43,5 +43,7 @@ nome[8:13] vai retornar o freire
 mesmo que ultrapasse a quantidade de caracteres o valor vai ser o mesmo 
 exemplo [8:14] ou 15 etc 
 """
-for numero in range(1, 10):
-    print(numero)
+#for numero in range(1, 10):
+   # print(numero)
+
+   
