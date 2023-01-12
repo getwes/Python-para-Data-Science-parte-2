@@ -56,6 +56,11 @@ for indice, letra in enumerate(nome):
 for indice, letra in enumerate(nome):
     print(letra)
 
+for _, letra in enumerate(nome):
+    print(letra)
+
+observação: quando não precisamos de valor, podemos descartá-lo ultilizando um underline (_)
+
 """
 for i, v in enumerate(nome):
     print(nome[i])
