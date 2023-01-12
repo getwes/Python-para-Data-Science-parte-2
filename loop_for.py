@@ -61,7 +61,11 @@ for _, letra in enumerate(nome):
 
 observação: quando não precisamos de valor, podemos descartá-lo ultilizando um underline (_)
 
-"""
 for i, v in enumerate(nome):
     print(nome[i])
+"""
+qtd = int(input('quantas vezes esse looop deve rodar?'))
+
+for n in range(1, qtd):
+    print(f'imprimindo {n}')
 
