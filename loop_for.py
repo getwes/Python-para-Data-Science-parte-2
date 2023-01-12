@@ -63,7 +63,7 @@ observação: quando não precisamos de valor, podemos descartá-lo ultilizando 
 
 for i, v in enumerate(nome):
     print(nome[i])
-"""
+
 qtd = 5
 qtd = int(input('quantas vezes esse looop deve rodar?'))
 soma = 0
@@ -72,3 +72,4 @@ for n in range(1, qtd+1):
      num = int(input(f'informe o {n}/{qtd} valor: '))
      soma = soma + num
 print(f'a soma é {soma}')
+"""
