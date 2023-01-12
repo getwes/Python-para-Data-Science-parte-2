@@ -76,4 +76,4 @@ print(f'a soma é {soma}')
 nome = 'wesley freire'
 
 for letra in nome:
-    print(letra, end='')
+    print(letra, end='') #end='' serve para juntar todas as letras em uma linha
