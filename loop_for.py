@@ -36,6 +36,9 @@ for numero in lista:
 range(valor_inicial, valor_final)
 
 obeservação: o valor final não é inclusive.
+
+nome = wesley freire
+nome[0:6] vai retornar wesley
 """
 for numero in range(1, 10):
     print(numero)
