@@ -64,8 +64,9 @@ observação: quando não precisamos de valor, podemos descartá-lo ultilizando 
 for i, v in enumerate(nome):
     print(nome[i])
 """
+qtd = 5
 qtd = int(input('quantas vezes esse looop deve rodar?'))
 
-for n in range(1, qtd):
+for n in range(1, qtd+1):
     print(f'imprimindo {n}')
 
