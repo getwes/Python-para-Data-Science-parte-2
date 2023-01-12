@@ -77,6 +77,10 @@ nome = 'wesley freire'
 
 for letra in nome:
     print(letra, end='') #end='' serve para juntar todas as letras em uma linha
-"""
 
 # ctrl + botão direito encima de print aparece a lista help 
+
+tabela de emojis unicode
+"""
+# original: U+1F60D
+# modificado:
