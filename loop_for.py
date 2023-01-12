@@ -49,6 +49,9 @@ exemplo [8:14] ou 15 etc
 """
     enumerate:
    (0, 'w') (1, 'e') (2, 's') etc
+
+   for indice, letra in enumerate(nome):
+    print(nome[indice])
 """
 for i, v in enumerate(nome):
     print(nome[i])
