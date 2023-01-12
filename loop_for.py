@@ -86,6 +86,8 @@ tabela de emojis unicode
 # modificado: U0001F60D
 
 
-for _ in range(3) # multiplica por 3 vezes a range
+for _ in range(3): # multiplica por 3 vezes a range
     for num in range(1, 11):
         print('\U0001F60D' * num)
+
+
