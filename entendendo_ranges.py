@@ -31,7 +31,7 @@ for num in range(1, 11):
 
 for num in range(1, 10, 2): # começã com o numero 1 vai ate o numero 10 e vai pulando de 2 em 2 numeros
     print(num)
-"""
+
 #forma 4 (inversa)
 
 #range(valor_de_inicio, valor_de_parada, passo)
@@ -41,3 +41,5 @@ for num in range(1, 10, 2): # começã com o numero 1 vai ate o numero 10 e vai 
 # exemplo forma 4
 for num in range(10, 0, -1 ):
     print(num)
+
+"""
