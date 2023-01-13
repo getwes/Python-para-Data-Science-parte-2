@@ -17,9 +17,17 @@ obs: valor_de_parada não  inclusive (inicio padrão 0, e passo de 1 em 1)
 
 for num in range(11):
     print(num)
-"""
-#forma 2
+
+# exemplo forma 2
 #range(valor_de_inicio, valor_de_parada)
 #obs: valor_de_paradaa não inclui (inicio especificodo pelo usuario, e passo de 1 em 1)
 for num in range(1, 11):
+    print(num)
+"""
+#exemplo forma 3
+
+#range(valor_de_inicio, valor_de_parada)
+#obs: valor_de_paradaa não inclui (inicio especificodo pelo usuario, e passo especificado pelo usuario )
+
+for num in range(1, 10, 2): # começã com o numero 1 vai ate o numero 10 e vai pulando de 2 em 2 numeros
     print(num)
