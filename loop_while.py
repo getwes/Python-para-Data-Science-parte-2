@@ -16,3 +16,5 @@ num = 5
 
 num < 5
 """
+numero = 1
+while numero < 10:
