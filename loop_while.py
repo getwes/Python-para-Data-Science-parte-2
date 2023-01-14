@@ -25,3 +25,5 @@ while numero < 10:
 
 #obs: em loop while, é importante que cuidemos do criterio de parada para não causar um loop infinito
 """
+
+#exemplo 2
