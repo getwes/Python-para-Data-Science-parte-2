@@ -21,4 +21,5 @@ while numero < 10:
     print(numero)
     numero = numero + 1
 
-#obs: em loop while, é importante que cuidemos do criterio de parada
+
+#obs: em loop while, é importante que cuidemos do criterio de parada para não causar um loop infinito
