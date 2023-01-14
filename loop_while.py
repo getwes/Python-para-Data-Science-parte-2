@@ -16,6 +16,7 @@ num = 5
 
 num < 5
 """
+#exemplo 1
 numero = 1
 while numero < 10:
     print(numero)
