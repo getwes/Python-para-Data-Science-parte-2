@@ -3,5 +3,5 @@ loop while
 
 forma geral 
 
-while
+while expressão_booleana:
 """
