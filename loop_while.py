@@ -13,4 +13,6 @@ expressão booleada é toda expressão onde o resultado é verdadeiro ou falso.
 exemplo:
 
 num = 5
+
+num < 5
 """
