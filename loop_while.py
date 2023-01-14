@@ -27,3 +27,7 @@ while numero < 10:
 """
 
 #exemplo 2
+resposta = ''
+
+while resposta != 'sim':
+    resposta = input(' ja acabou jessica?')
