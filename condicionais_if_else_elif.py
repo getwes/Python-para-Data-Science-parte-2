@@ -29,4 +29,4 @@ if idade == 26:
 if idade > 18:
     print('maior de idade')
 """
-# pode ser usado dessa maneira porem não é a mais adequada.
+# pode ser usado dessa maneira porem não é a mais adequada. 
