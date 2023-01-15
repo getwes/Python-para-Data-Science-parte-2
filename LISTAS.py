@@ -11,5 +11,5 @@
 
   ja em python:
 
-  - dinamico: não possui tamanho fixo;
+  - dinamico: não possui tamanho fixo; ou seja, podemos criar a lista e simplesmente ir adicionando elementos;
 """
