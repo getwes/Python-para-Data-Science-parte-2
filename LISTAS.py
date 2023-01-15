@@ -9,5 +9,7 @@
   ou seja,  nestas linguagens se voce criar um array do tipo int e com tamanho 5, este array
   sera sempre do tipo interio e podera ter SEMPRE no maximo 5 valores.
 
-  - dinamico: 
+  ja em python:
+
+  - dinamico: não possui tamanho fixo;
 """
