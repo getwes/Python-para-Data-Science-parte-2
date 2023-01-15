@@ -33,3 +33,4 @@ resposta = ''
 while resposta != 'sim':
     resposta = input(' ja acabou jessica?')  # enquanto a resposta do usuario não for sim  o rpgrama vai ficar repetindo a perguta diversas vezes.
 
+# while serve para repetiçoes apenas

@@ -14,3 +14,10 @@ for numero in range(1, 11):
     else:
         print(numero)
 print('sai do loop')
+
+#exemplo 2
+
+while True:
+    comando = input("digite 'sair' para sair:")
+    if comando == 'sair':
+        break
