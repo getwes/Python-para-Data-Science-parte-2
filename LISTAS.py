@@ -27,3 +27,9 @@ lista3 = []
 lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
+
+#podemos facilmente checar se determinado valor esta contido na lista
+if 8 in lista4:
+    print('encontrei o numero 8')
+else:
+    print('não encontrei o numero 8')
