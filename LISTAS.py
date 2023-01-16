@@ -37,3 +37,6 @@ else:
 
 
 #podemos facilmente ordenar uma lista
+
+lista1.sort()
+print(lista1)
