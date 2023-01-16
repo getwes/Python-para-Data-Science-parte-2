@@ -31,6 +31,6 @@ while numero < 10:
 resposta = ''
 
 while resposta != 'sim':
-    resposta = input(' ja acabou jessica?')  # enquanto a resposta do usuario não for sim  o rpgrama vai ficar repetindo a perguta diversas vezes.
+    resposta = input(' ja acabou jessica?')  # enquanto a resposta do usuario não for sim  o programa vai ficar repetindo a perguta diversas vezes.
 
 # while serve para repetiçoes apenas
