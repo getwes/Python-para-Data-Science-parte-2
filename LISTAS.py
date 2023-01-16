@@ -13,4 +13,6 @@
 
   - dinamico: não possui tamanho fixo; ou seja, podemos criar a lista e simplesmente ir adicionando elementos;
   - qualquer tipo de dados: não possuem tipo de dados fixo; ou seja, podemos colocar qualquer tipo de dado;
+
+  as listas em python são representadas por colchetes: []
 """
