@@ -40,3 +40,7 @@ else:
 
 lista1.sort()
 print(lista1)
+
+# podemos facilemte contar o numero de ocorrencias de um valor em lista
+print(lista1.count(1))
+print(lista2.count('e'))
