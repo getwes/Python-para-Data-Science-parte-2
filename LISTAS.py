@@ -29,8 +29,11 @@ lista4 = list(range(11))
 lista5 = list('Wesley da Silva Freire')
 
 #podemos facilmente checar se determinado valor esta contido na lista
-num = 18
+num = 7
 if num in lista4:
     print(f'encontrei o numero {num}')
 else:
     print(f'não encontrei o numero {num}')
+
+
+#podemos facilmente ordenar uma lista
