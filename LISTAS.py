@@ -47,3 +47,6 @@ print(lista2.count('e'))
 
 #adicionar elementos em listas
 
+"""
+para adicionar elementos em listas, ultilizamos a função append
+"""
