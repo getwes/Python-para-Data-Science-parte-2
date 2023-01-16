@@ -49,6 +49,8 @@ print(lista2.count('e'))
 
 """
 para adicionar elementos em listas, ultilizamos a função append
+
+obs: com append, nos so conseguimos adcicionar 1 elemento por vez
 """
 
 lista1.append(100)
