@@ -57,3 +57,11 @@ print(lista1)
 
 #obs: com append, nos so conseguimos adcicionar 1 elemento por vez
 #forma errada lista.append(12, 34, 56)
+
+lista1.append([8, 3, 1])
+print(lista1)
+
+if [8, 3, 1] in lista1:
+    print('encontrei a lista')
+else:
+    print('não encontrei a lista')
