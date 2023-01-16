@@ -16,3 +16,6 @@
 
   as listas em python são representadas por colchetes: []
 """
+type([])
+
+lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
