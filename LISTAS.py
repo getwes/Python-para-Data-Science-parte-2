@@ -25,3 +25,5 @@ lista2 = ['w', 'e', 's', 'l', 'e', 'y']
 lista3 = []
 
 lista4 = list(range(11))
+
+lista5 = list('Wesley da Silva Freire')
