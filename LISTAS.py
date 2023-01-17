@@ -76,3 +76,4 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
+# podemos inserir um novo elemento na lista informando a posição do indice
