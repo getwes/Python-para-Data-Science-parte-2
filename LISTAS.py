@@ -71,5 +71,5 @@ if 100 in lista1:
 else:
     print('não achei')
 
-lista1.extend([123, 44, 67]) 
+lista1.extend([123, 44, 67]) # coloca cada elemento da lista como valor adicional á lista
 print(lista1)
