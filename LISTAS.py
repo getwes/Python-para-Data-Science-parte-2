@@ -15,20 +15,8 @@
   - qualquer tipo de dados: não possuem tipo de dados fixo; ou seja, podemos colocar qualquer tipo de dado;
 
   as listas em python são representadas por colchetes: []
-"""
-type([])
 
-lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
-
-lista2 = ['w', 'e', 's', 'l', 'e', 'y']
-
-lista3 = []
-
-lista4 = list(range(11))
-
-lista5 = list('Wesley da Silva Freire')
-
-#podemos facilmente checar se determinado valor esta contido na lista
+  #podemos facilmente checar se determinado valor esta contido na lista
 num = 7
 if num in lista4:
     print(f'encontrei o numero {num}')
@@ -47,10 +35,10 @@ print(lista2.count('e'))
 
 #adicionar elementos em listas
 
-"""
+
 para adicionar elementos em listas, ultilizamos a função append
 
-"""
+
 
 lista1.append(100)
 print(lista1)
@@ -73,4 +61,18 @@ else:
 
 lista1.extend([123, 44, 67]) # coloca cada elemento da lista como valor adicional á lista
 print(lista1)
+
+
+"""
+type([])
+
+lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
+
+lista2 = ['w', 'e', 's', 'l', 'e', 'y']
+
+lista3 = []
+
+lista4 = list(range(11))
+
+lista5 = list('Wesley da Silva Freire')
 
