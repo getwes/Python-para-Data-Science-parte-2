@@ -65,3 +65,10 @@ if [8, 3, 1] in lista1:
     print('encontrei a lista')
 else:
     print('não encontrei a lista')
+
+if 100 in lista1:
+    print('achei')
+else:
+    print('não achei')
+
+lista1.extend([123, 44, 67])
