@@ -73,3 +73,6 @@ else:
 
 lista1.extend([123, 44, 67]) # coloca cada elemento da lista como valor adicional á lista
 print(lista1)
+
+#a diferença entre append e extend é que o append faz uma lista dentro de outra lista 
+#e o extend coloca todos os dados dentro da mesma lista
