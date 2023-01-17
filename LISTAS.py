@@ -58,7 +58,7 @@ print(lista1)
 #obs: com append, nos so conseguimos adcicionar 1 elemento por vez
 #forma errada lista.append(12, 34, 56)
 
-lista1.append([8, 3, 1])
+lista1.append([8, 3, 1]) # coloca a lista como elemento unico (sublista)
 print(lista1)
 
 if [8, 3, 1] in lista1:
@@ -71,4 +71,5 @@ if 100 in lista1:
 else:
     print('não achei')
 
-lista1.extend([123, 44, 67])
+lista1.extend([123, 44, 67]) 
+print(lista1)
