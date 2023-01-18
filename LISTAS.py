@@ -82,3 +82,4 @@ lista5 = list('Wesley da Silva Freire')
 # podemos facilmente juntar duas listas
 
 lista6 = lista1 + lista2
+print(lista6)
