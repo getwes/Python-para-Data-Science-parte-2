@@ -66,6 +66,13 @@ print(lista1)
 #obs: isso não substitui o valor inicial. o mesmo sera deslocado para a direita da lista.
 lista1.insert(2, 'novo valor')
 print(lista1)
+# podemos facilmente juntar duas listas
+
+#lista6 = lista1 + lista2
+lista1.extend(lista2) # o extend tambem serve para fazer concatenação de listas e strings
+print(lista1)
+
+# a contatenção não serve a penas para numeros serve tambem para strings ou listas.
 """
 type([])
 
