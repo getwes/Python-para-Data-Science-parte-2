@@ -82,7 +82,7 @@ lista5 = list('Wesley da Silva Freire')
 # podemos facilmente juntar duas listas
 
 #lista6 = lista1 + lista2
-lista1.extend(lista2)
-print(lista6)
+lista1.extend(lista2) # o extend tambem serve para fazer concatenação de listas e strings
+print(lista1)
 
 # a contatenção não serve a penas para numeros serve tambem para strings ou listas.
