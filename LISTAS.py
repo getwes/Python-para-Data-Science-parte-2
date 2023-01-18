@@ -83,3 +83,5 @@ lista5 = list('Wesley da Silva Freire')
 
 lista6 = lista1 + lista2
 print(lista6)
+
+# a contatenção não serve a penas para numeros serve tambem para strings ou listas.
