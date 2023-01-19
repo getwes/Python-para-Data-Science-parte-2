@@ -87,6 +87,7 @@ lista4 = list(range(11))
 lista5 = list('Wesley da Silva Freire')
 
 #podemos facimente inverter uma lista
+#froma 1
 lista1.reverse()
 lista2.reverse()
 
