@@ -86,5 +86,8 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
+lista1.reverse()
+
+
 print(lista1)
 print(lista2)
