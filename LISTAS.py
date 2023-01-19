@@ -73,6 +73,18 @@ lista1.extend(lista2) # o extend tambem serve para fazer concatenação de lista
 print(lista1)
 
 # a contatenção não serve a penas para numeros serve tambem para strings ou listas.
+
+#podemos facimente inverter uma lista
+#froma 1
+lista1.reverse()
+lista2.reverse()
+print(lista1)
+print(lista2)
+
+
+#forma 2
+print(lista1[::-1])
+print(lista2[::-1])
 """
 type([])
 
