@@ -90,5 +90,5 @@ lista5 = list('Wesley da Silva Freire')
 lista1.reverse()
 lista2.reverse()
 
-print(lista1)
-print(lista2)
+print(lista1[::-1])
+print(lista2[::-1])
