@@ -16,3 +16,9 @@ lista3 = []
 lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
+
+
+lista1.extend([99, 20, 100, 50])
+
+lista1.sort()
+print(lista1)
