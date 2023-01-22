@@ -102,3 +102,6 @@ lista5 = list('Wesley da Silva Freire')
 
 lista6 = lista2.copy()
 print(lista6)
+
+lista6.sort()
+print(lista6)
