@@ -18,5 +18,5 @@ lista4 = list(range(11))
 lista5 = list('Wesley da Silva Freire')
 
 
-lista1.append(lista2)
+lista1.extend(lista2)
 print(lista1)
