@@ -99,3 +99,6 @@ lista4 = list(range(11))
 lista5 = list('Wesley da Silva Freire')
 
 # copiar uma lista
+
+lista6 = lista2.copy()
+print(lista6)
