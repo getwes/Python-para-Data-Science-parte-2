@@ -31,6 +31,9 @@ listamercado = ['arroz', 'feijao', 'oleo', 'sal', 'cafe', 'milho', 'biscoito']
 if 'arroz' in listamercado:
     print("temos arroz")
 else:
-    print("nao temos esse produto")
+    print("nao temos arroz")
 
-if 'chocol'
+if 'chocolate' in listamercado:
+    print("temos chocolate")
+else:
+    print(f"nao temos chocolate")
