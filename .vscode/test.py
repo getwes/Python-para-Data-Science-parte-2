@@ -24,4 +24,13 @@ print(lista1)
 # iniciar uma procura de itens
 #  no super mercado para compor uma cesta basica.
 
+type([])
 
+listamercado = ['arroz', 'feijao', 'oleo', 'sal', 'cafe', 'milho', 'biscoito']
+
+if 'arroz' in listamercado:
+    print("temos arroz")
+else:
+    print("nao temos esse produto")
+
+if 'chocol'
