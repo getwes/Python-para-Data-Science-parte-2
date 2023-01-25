@@ -106,4 +106,5 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
+#podemos contar quantos elementos existem dentro da lista
 print(len(lista1))
