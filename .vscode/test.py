@@ -26,7 +26,8 @@ print(lista1)
 
 type([])
 
-listamercado = ['arroz', 'feijao', 'oleo', 'sal', 'cafe', 'milho', 'biscoito']
+listamercado = ['arroz', 'feijao', 'oleo', 'sal', 'cafe', 'milho', 'biscoito', ]
+
 
 if 'arroz' in listamercado:
     print("temos arroz")
