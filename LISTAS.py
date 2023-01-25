@@ -93,6 +93,9 @@ print(lista6)
 
 lista6.sort()
 print(lista6)
+
+#podemos contar quantos elementos existem dentro da lista
+print(len(lista1))
 """
 type([])
 
@@ -106,5 +109,8 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
-#podemos contar quantos elementos existem dentro da lista
-print(len(lista1))
+#podemos facilmente remover o ultimo elemento de uma lista
+
+print(lista5)
+lista5.pop()
+print(lista5)
