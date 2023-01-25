@@ -85,6 +85,14 @@ print(lista2)
 #forma 2
 print(lista1[::-1])
 print(lista2[::-1])
+
+# copiar uma lista
+
+lista6 = lista2.copy()
+print(lista6)
+
+lista6.sort()
+print(lista6)
 """
 type([])
 
@@ -98,10 +106,3 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
-# copiar uma lista
-
-lista6 = lista2.copy()
-print(lista6)
-
-lista6.sort()
-print(lista6)
