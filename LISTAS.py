@@ -98,7 +98,7 @@ print(lista6)
 print(len(lista1))
 
 #podemos facilmente remover o ultimo elemento de uma lista
-
+# obs: o pop não somente remove o ultimo lelemento mas tambem o retorna
 print(lista5)
 lista5.pop()
 print(lista5)
