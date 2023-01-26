@@ -116,6 +116,7 @@ lista4 = list(range(11))
 lista5 = list('Wesley da Silva Freire')
 
 # podemos remover um elemento pelo indice
+#obs os elementos a direita deste indicee serão deslocados para a esquerda.
 print(lista5)
 lista5.pop(2)
 print(lista5)
