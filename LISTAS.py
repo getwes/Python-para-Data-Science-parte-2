@@ -138,5 +138,5 @@ lista5 = list('Wesley da Silva Freire')
 
 curso = 'programação em python: essencial'
 print(curso)
-curso = curso.splint()
+curso = curso.split()
 print(curso) 
