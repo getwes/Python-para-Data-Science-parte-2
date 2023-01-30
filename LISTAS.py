@@ -127,7 +127,3 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
-# podemos remover todos os elementos (zerar a lista)
-print(lista5)
-lista5.clear()
-print(lista5)
