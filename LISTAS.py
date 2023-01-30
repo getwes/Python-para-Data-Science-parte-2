@@ -140,3 +140,4 @@ curso = 'programação em python: essencial'
 print(curso)
 curso = curso.split()
 print(curso) 
+#obs: por padrão, o split separa os elemtentos da lista pelo espaço entre elas.s
