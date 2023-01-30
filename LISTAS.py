@@ -109,6 +109,11 @@ print(lista5)
 print(lista5)
 lista5.pop(2)
 print(lista5)
+
+# podemos remover todos os elementos (zerar a lista)
+print(lista5)
+lista5.clear()
+print(lista5)
 """
 type([])
 
