@@ -114,6 +114,12 @@ print(lista5)
 print(lista5)
 lista5.clear()
 print(lista5)
+
+# podemos facilmente repetir elementos em uma lista
+nova =[1, 2, 3]
+print(nova)
+nova = nova * 3
+print(nova)
 """
 type([])
 
@@ -131,4 +137,4 @@ lista5 = list('Wesley da Silva Freire')
 nova =[1, 2, 3]
 print(nova)
 nova = nova * 3
-print(nova)s
+print(nova)
