@@ -133,8 +133,3 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
-# podemos facilmente repetir elementos em uma lista
-nova =[1, 2, 3]
-print(nova)
-nova = nova * 3
-print(nova)
