@@ -144,4 +144,6 @@ print(curso)
 
 #exemplo 2
 curso ='programação,em,python: ,essencial'
-print(curso)s
+print(curso)
+curso = curso.split(',') # o sianl de ',' mosta que o padrão não é o espaço e sim separado pelas virgulas.
+print(curso)
