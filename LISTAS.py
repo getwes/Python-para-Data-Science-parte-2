@@ -137,3 +137,6 @@ lista5 = list('Wesley da Silva Freire')
 #exemplo 1
 
 curso = 'programação em python: essencial'
+print(curso)
+curso = curso.splint()
+print(curso) 
