@@ -153,5 +153,6 @@ lista5 = list('Wesley da Silva Freire')
 lista6 = ['progrmação', 'em', 'python:', 'essencial']
 print(lista6)
 
+# abaixo estamos falando: pega a lista6, coloca espaço entre cada elemento e transforma em uma strings
 curso = ' '.join(lista6)
 print(curso)
