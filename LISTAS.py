@@ -120,18 +120,6 @@ nova =[1, 2, 3]
 print(nova)
 nova = nova * 3
 print(nova)
-"""
-type([])
-
-lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
-
-lista2 = ['w', 'e', 's', 'l', 'e', 'y']
-
-lista3 = []
-
-lista4 = list(range(11))
-
-lista5 = list('Wesley da Silva Freire')
 
 #podemos facilmente uma string para uma lista
 #exemplo 1
@@ -147,3 +135,16 @@ curso ='programação,em,python: ,essencial'
 print(curso)
 curso = curso.split(',') # o sianl de ',' mostra que o padrão não é o espaço e sim separado pelas virgulas.
 print(curso)
+"""
+type([])
+
+lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
+
+lista2 = ['w', 'e', 's', 'l', 'e', 'y']
+
+lista3 = []
+
+lista4 = list(range(11))
+
+lista5 = list('Wesley da Silva Freire')
+
