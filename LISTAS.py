@@ -149,4 +149,6 @@ lista4 = list(range(11))
 lista5 = list('Wesley da Silva Freire')
 
  # convertendo  uma lista em uma string
- s
+ 
+lista6 = ['progrmação', 'em', 'python:', 'essencial']
+print(lista6)
