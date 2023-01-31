@@ -152,3 +152,6 @@ lista5 = list('Wesley da Silva Freire')
  
 lista6 = ['progrmação', 'em', 'python:', 'essencial']
 print(lista6)
+
+curso = ' '.join(lista6)
+print(curso)
