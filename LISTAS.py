@@ -156,6 +156,6 @@ print(lista6)
 # abaixo estamos falando: pega a lista6, coloca espaço entre cada elemento e transforma em uma strings
 curso = ' '.join(lista6)
 print(curso)
-
+# abaixo estamos falando : pega a lista6, coloca cifrão entre cada elemento e transforma em uma string
 curso = '$'.join(lista6) # pega essa string para mim e entre cada palavra coloca um '$' entre elas.
 print(curso)
