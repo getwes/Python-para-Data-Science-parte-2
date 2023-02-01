@@ -147,6 +147,13 @@ print(curso)
 # abaixo estamos falando : pega a lista6, coloca cifrão entre cada elemento e transforma em uma string
 curso = '$'.join(lista6) # pega essa string para mim e entre cada palavra coloca um '$' entre elas.
 print(curso)
+
+# podemos realmente colocar qualquer tipo de dado em uma lista, inclusive misturando esses dados
+lista6 = [1, 2.34, True, 'wes', 'd', [1, 2, 3], 4564936657]
+
+print(lista6)
+print(type(lista6))
+
 """
 type([])
 
@@ -160,8 +167,3 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
-# podemos realmente colocar qualquer tipo de dado em uma lista, inclusive misturando esses dados
-lista6 = [1, 2.34, True, 'wes', 'd', [1, 2, 3], 4564936657]
-
-print(lista6)
-print(type(lista6))
