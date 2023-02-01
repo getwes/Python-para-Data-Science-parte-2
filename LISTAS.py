@@ -162,3 +162,4 @@ lista5 = list('Wesley da Silva Freire')
 
 lista6 = [1, 2.34, True, 'wes', 'd', [1, 2, 3], 4564936657]
 
+# podemos realmente colocar qualquer tipo de dado em uma lista, inclusive misturando esses dados
