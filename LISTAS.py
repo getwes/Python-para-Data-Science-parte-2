@@ -133,7 +133,7 @@ print(curso)
 #exemplo 2
 curso ='programação,em,python: ,essencial'
 print(curso)
-curso = curso.split(',') # o sianl de ',' mostra que o padrão não é o espaço e sim separado pelas virgulas.
+curso = curso.split(',') # o sinal de ',' mostra que o padrão não é o espaço e sim separado pelas virgulas.
 print(curso)
 """
 type([])
