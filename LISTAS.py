@@ -156,3 +156,6 @@ print(lista6)
 # abaixo estamos falando: pega a lista6, coloca espaço entre cada elemento e transforma em uma strings
 curso = ' '.join(lista6)
 print(curso)
+
+curso = '$'.join(lista6)
+print(curso)
