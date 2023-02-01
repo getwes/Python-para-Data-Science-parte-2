@@ -160,8 +160,8 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
+# podemos realmente colocar qualquer tipo de dado em uma lista, inclusive misturando esses dados
 lista6 = [1, 2.34, True, 'wes', 'd', [1, 2, 3], 4564936657]
 
-# podemos realmente colocar qualquer tipo de dado em uma lista, inclusive misturando esses dados
-
 print(lista6)
+print(type(lista6))
