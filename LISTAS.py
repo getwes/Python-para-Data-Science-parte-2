@@ -135,6 +135,18 @@ curso ='programação,em,python: ,essencial'
 print(curso)
 curso = curso.split(',') # o sinal de ',' mostra que o padrão não é o espaço e sim separado pelas virgulas.
 print(curso)
+
+ # convertendo  uma lista em uma string
+ 
+lista6 = ['progrmação', 'em', 'python:', 'essencial']
+print(lista6)
+
+# abaixo estamos falando: pega a lista6, coloca espaço entre cada elemento e transforma em uma strings
+curso = ' '.join(lista6)
+print(curso)
+# abaixo estamos falando : pega a lista6, coloca cifrão entre cada elemento e transforma em uma string
+curso = '$'.join(lista6) # pega essa string para mim e entre cada palavra coloca um '$' entre elas.
+print(curso)
 """
 type([])
 
@@ -148,14 +160,3 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
- # convertendo  uma lista em uma string
- 
-lista6 = ['progrmação', 'em', 'python:', 'essencial']
-print(lista6)
-
-# abaixo estamos falando: pega a lista6, coloca espaço entre cada elemento e transforma em uma strings
-curso = ' '.join(lista6)
-print(curso)
-# abaixo estamos falando : pega a lista6, coloca cifrão entre cada elemento e transforma em uma string
-curso = '$'.join(lista6) # pega essa string para mim e entre cada palavra coloca um '$' entre elas.
-print(curso)
