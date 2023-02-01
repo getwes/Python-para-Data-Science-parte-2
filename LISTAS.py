@@ -157,5 +157,5 @@ print(lista6)
 curso = ' '.join(lista6)
 print(curso)
 
-curso = '$'.join(lista6)
+curso = '$'.join(lista6) # pega essa string para mim e entre cada palavra coloca um '$' entre elas.
 print(curso)
