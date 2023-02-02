@@ -171,5 +171,5 @@ lista5 = list('Wesley da Silva Freire')
 
 #exemplo 1
 
-for elemento in lista1:
+for elemento in lista1: #para cada elemento nesta lista inprima cada um para min.
     print(elemento)
