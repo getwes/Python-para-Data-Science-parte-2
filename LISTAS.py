@@ -170,3 +170,6 @@ lista5 = list('Wesley da Silva Freire')
 #interando sobre listas 
 
 #exemplo 1
+
+for elemento in lista1:
+    print(elemento)
