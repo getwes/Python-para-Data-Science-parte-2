@@ -170,6 +170,8 @@ lista5 = list('Wesley da Silva Freire')
 #interando sobre listas 
 
 #exemplo 1
-
-for elemento in lista1: #para cada elemento nesta lista inprima cada um para min.
+soma = 0
+for elemento in lista4: #para cada elemento nesta lista imprima cada um para min.
     print(elemento)
+    soma = soma + elemento
+    print(soma)
