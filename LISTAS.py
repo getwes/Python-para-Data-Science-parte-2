@@ -181,4 +181,4 @@ for elemento in lista2:
     soma = soma + elemento
 print(soma)
 
-#exemplo 2
+#exemplo 2 - ultilizado while
