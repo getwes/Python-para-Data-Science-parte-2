@@ -169,9 +169,14 @@ lista5 = list('Wesley da Silva Freire')
 
 #interando sobre listas 
 
-#exemplo 1
+#exemplo 1 - ultilizado for
 soma = 0
 for elemento in lista4: #para cada elemento nesta lista imprima cada um para min.
     print(elemento)
     soma = soma + elemento
     print(soma)
+
+soma = ''
+for elemento in lista2: 
+    soma = soma + elemento
+print(soma)
