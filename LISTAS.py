@@ -181,5 +181,16 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
-
 #exemplo 2 - ultilizado while
+
+carrinho = []
+produto = ''
+
+while produto != 'sair':
+    print("adicione um produto na lista ou digite 'sair' para sair: ")
+    produto = input()
+    if produto != 'sair':
+        carrinho.append(produto)
+
+for produto in carrinho:
+    print(produto)
