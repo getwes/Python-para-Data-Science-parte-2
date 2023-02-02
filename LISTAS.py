@@ -154,19 +154,6 @@ lista6 = [1, 2.34, True, 'wes', 'd', [1, 2, 3], 4564936657]
 print(lista6)
 print(type(lista6))
 
-"""
-type([])
-
-lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
-
-lista2 = ['w', 'e', 's', 'l', 'e', 'y']
-
-lista3 = []
-
-lista4 = list(range(11))
-
-lista5 = list('Wesley da Silva Freire')
-
 #interando sobre listas 
 
 #exemplo 1 - ultilizado for
@@ -180,5 +167,19 @@ soma = ''
 for elemento in lista2: 
     soma = soma + elemento
 print(soma)
+
+"""
+type([])
+
+lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
+
+lista2 = ['w', 'e', 's', 'l', 'e', 'y']
+
+lista3 = []
+
+lista4 = list(range(11))
+
+lista5 = list('Wesley da Silva Freire')
+
 
 #exemplo 2 - ultilizado while
