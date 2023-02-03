@@ -168,19 +168,6 @@ for elemento in lista2:
     soma = soma + elemento
 print(soma)
 
-"""
-type([])
-
-lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
-
-lista2 = ['w', 'e', 's', 'l', 'e', 'y']
-
-lista3 = []
-
-lista4 = list(range(11))
-
-lista5 = list('Wesley da Silva Freire')
-
 #exemplo 2 - ultilizado while
 
 carrinho = []
@@ -194,3 +181,17 @@ while produto != 'sair':
 
 for produto in carrinho:
     print(produto)
+
+"""
+type([])
+
+lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
+
+lista2 = ['w', 'e', 's', 'l', 'e', 'y']
+
+lista3 = []
+
+lista4 = list(range(11))
+
+lista5 = list('Wesley da Silva Freire')
+
