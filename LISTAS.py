@@ -182,6 +182,19 @@ while produto != 'sair':
 for produto in carrinho:
     print(produto)
 
+    # ultilizando variaveis em listas
+numero = [1, 2, 3, 4, 5]
+print(numero)
+
+num1 = 1
+num2 = 2
+num3 = 3
+num4 = 4
+num5 = 5
+
+numeros = [num1, num2, num3, num4, num5]
+print(numeros)
+
 """
 type([])
 
@@ -195,15 +208,3 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
-# ultilizando variaveis em listas
-numero = [1, 2, 3, 4, 5]
-print(numero)
-
-num1 = 1
-num2 = 2
-num3 = 3
-num4 = 4
-num5 = 5
-
-numeros = [num1, num2, num3, num4, num5]
-print(numeros)s
