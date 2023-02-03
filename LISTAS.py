@@ -195,3 +195,4 @@ lista4 = list(range(11))
 
 lista5 = list('Wesley da Silva Freire')
 
+# ultilizando variaveis em listaas
