@@ -197,3 +197,11 @@ lista5 = list('Wesley da Silva Freire')
 
 # ultilizando variaveis em listas
 numero = [1, 2, 3, 4, 5]
+
+num1 = 1
+num2 = 2
+num3 = 3
+num4 = 4
+num5 = 5
+
+numeros = [num1, num2, num3, num4, num5]
