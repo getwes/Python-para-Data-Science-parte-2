@@ -209,5 +209,5 @@ lista4 = list(range(11))
 lista5 = list('Wesley da Silva Freire')
 
 # fazemos acesso aos elementos de forma indexadas
-
+#            0         1        2         3
 cores = ['verde', 'amarelo', 'azul', 'branco']
