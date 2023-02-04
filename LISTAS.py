@@ -213,3 +213,4 @@ lista5 = list('Wesley da Silva Freire')
 cores = ['verde', 'amarelo', 'azul', 'branco']
 
 print(cores[0]) # verde
+print(cores[1]) # amarelo
