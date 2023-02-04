@@ -214,3 +214,4 @@ cores = ['verde', 'amarelo', 'azul', 'branco']
 
 print(cores[0]) # verde
 print(cores[1]) # amarelo
+print(cores[2]) # azul
