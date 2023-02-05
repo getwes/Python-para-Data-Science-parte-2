@@ -226,11 +226,6 @@ print(cores[-2]) # azul
 print(cores[-3]) # amarelo
 print(cores[-4]) # verde
 
-"""
-
-#            0         1        2         3
-cores = ['verde', 'amarelo', 'azul', 'branco']
-
 for cor in cores:
     print(cor)
 
@@ -238,3 +233,12 @@ indice = 0
 while indice < len(cores):
     print(cores[indice])
     indice = indice + 1
+
+"""
+
+#            0         1        2         3
+cores = ['verde', 'amarelo', 'azul', 'branco']
+
+# gerar indice em um for
+for indice, cor in enumerate(cores):
+    print(indice, cor)
