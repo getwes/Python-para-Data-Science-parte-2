@@ -265,6 +265,9 @@ print(numeros.index(9))
 #obs: caso não tenha este elelemto na lista, será apresentado erro
 
 print(numeros.index(5))# retorna o indice do priomenro elemento encontrado
+
+# podemos fazer busca dentro de um range, ou seja, qual indice começar a buscar
+print(numero.index(5, 1)) # buscando a partir do indice 1
 #exemplo teste
 mercado = ['arroz', 'carne', 'ps4', 'xbox', 'tv', 'batata']
 
