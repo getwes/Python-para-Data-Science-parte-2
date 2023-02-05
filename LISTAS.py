@@ -306,3 +306,7 @@ print(lista[::2])# começa em 0, vai ate o final de 2 em 2
 """
 
 # invertendo valores em uma lista
+
+nomes = ['wesley', 'freire']
+nomes[0], nomes[1] = nomes[1],nomes[0]
+print(nomes)
