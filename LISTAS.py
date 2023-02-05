@@ -218,3 +218,8 @@ print(cores[2]) # azul
 print(cores[3]) # branco
 
 #fazer acesso aos elementos de forma indexado inversa
+
+print(cores[0]) 
+print(cores[1]) 
+print(cores[2]) 
+print(cores[3]) 
