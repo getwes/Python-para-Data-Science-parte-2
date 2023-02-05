@@ -250,3 +250,13 @@ print(lista)
 
 """
 
+# outros metodos não tão importantes mas tambem uteis
+
+#encontrar o indice de um eleemtno na lista
+
+numeros = [5, 6, 7, 8, 9, 10]
+
+#em qual indice da lista esta o valor 6?
+print(numeros.indice(6))
+
+#em qual indice est o valor 9?
