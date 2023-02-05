@@ -288,3 +288,4 @@ print(mercado.index('batata'))
 
 lista = [1, 2, 3, 4]
 print(lista[1:]) # iniciando no indice 1 e pegando todos os elementos restantes
+#posso pedir para pegar todos os indices usando ::
