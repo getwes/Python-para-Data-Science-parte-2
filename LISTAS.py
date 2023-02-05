@@ -316,4 +316,4 @@ print(nomes)
 
 """
 
- 
+ #soma*, vamor maximo*, valor minimo*, tamanho
