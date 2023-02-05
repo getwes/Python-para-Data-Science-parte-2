@@ -316,4 +316,12 @@ print(nomes)
 
 """
 
- #soma*, vamor maximo*, valor minimo*, tamanho
+ #soma*, valor maximo*, valor minimo*, tamanho
+ # * se os valores forem todosa inteiros ou reais.
+
+ lista = [1, 2, 3, 4, 5, 6]
+
+ print(sum(lista)) # soma
+ print(max(lista)) # maximo valor
+ print(min(lista)) # minimo valor
+ print(sum(lista)) # tamanho da lista
