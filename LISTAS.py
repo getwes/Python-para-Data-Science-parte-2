@@ -248,8 +248,6 @@ lista.append(42)
 
 print(lista)
 
-"""
-
 # outros metodos não tão importantes mas tambem uteis
 
 #encontrar o indice de um eleemtno na lista
@@ -278,3 +276,6 @@ print(numeros.index(8, 3, 6))
 mercado = ['arroz', 'carne', 'ps4', 'xbox', 'tv', 'batata']
 
 print(mercado.index('batata'))
+
+"""
+
