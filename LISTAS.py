@@ -284,8 +284,10 @@ print(mercado.index('batata'))
 #lista[inicio:fim;passo]
 #range(inicio:fim:passo)
 
-#trabalhando com slice de lista com o parametro 'indice'
+#trabalhando com slice de lista com o parametro 'inicio'
 
 lista = [1, 2, 3, 4]
 print(lista[1:]) # iniciando no indice 1 e pegando todos os elementos restantes
 #posso pedir para pegar todos os indices usando ::
+
+#trabalhando com slice de lista com o parametro 'fim'
