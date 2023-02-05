@@ -310,3 +310,8 @@ print(lista[::2])# começa em 0, vai ate o final de 2 em 2
 nomes = ['wesley', 'freire']
 nomes[0], nomes[1] = nomes[1],nomes[0]
 print(nomes)
+
+nomes = ['wesley', 'freire']
+
+nomes.reverse()
+print(nomes)
