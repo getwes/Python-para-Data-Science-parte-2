@@ -303,3 +303,6 @@ print(lista[1::2])# começa em 1, vai ate o final de 2 em 2
 
 print(lista[::2])# começa em 0, vai ate o final de 2 em 2
 
+"""
+
+# invertendo valores em uma lista
