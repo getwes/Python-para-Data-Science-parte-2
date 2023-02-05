@@ -314,7 +314,6 @@ nomes = ['wesley', 'freire']
 nomes.reverse()
 print(nomes)
 
-"""
 # importante para projetos grandes
  #soma*, valor maximo*, valor minimo*, tamanho
  # * se os valores forem todosa inteiros ou reais.
@@ -325,3 +324,5 @@ print(sum(lista)) # soma
 print(max(lista)) # maximo valor
 print(min(lista)) # minimo valor
 print(len(lista)) # tamanho da lista
+
+"""
