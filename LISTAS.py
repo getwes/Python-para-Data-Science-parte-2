@@ -218,6 +218,8 @@ print(cores[2]) # azul
 print(cores[3]) # branco
 
 #fazer acesso aos elementos de forma indexado inversa
+# para entender melhoir o indice negativo, pense na lista como um circulo, onde
+#o final de um eleemento esta ligado ao inicio da lista
 
 print(cores[-1]) # branco
 print(cores[-2]) # azul
