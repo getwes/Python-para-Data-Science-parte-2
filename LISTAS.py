@@ -228,6 +228,8 @@ print(cores[-4]) # verde
 
 """
 
-
 #            0         1        2         3
 cores = ['verde', 'amarelo', 'azul', 'branco']
+
+for cor in cores:
+    print(cor)
