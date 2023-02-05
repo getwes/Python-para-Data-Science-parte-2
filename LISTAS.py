@@ -240,4 +240,12 @@ for indice, cor in enumerate(cores):
 
 """
 
+#listas aceitam valres repetidos
+lista = []
+lista.append(42)
+lista.append(42)
+lista.append(33)
+lista.append(33)
+lista.append(42)
 
+print(lista)
