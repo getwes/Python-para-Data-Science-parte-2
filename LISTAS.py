@@ -279,3 +279,6 @@ print(mercado.index('batata'))
 
 """
 
+#revisar slicing 
+
+#lista[inicio:fim;passo]
