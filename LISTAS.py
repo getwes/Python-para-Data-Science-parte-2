@@ -233,3 +233,8 @@ cores = ['verde', 'amarelo', 'azul', 'branco']
 
 for cor in cores:
     print(cor)
+
+indice = 0
+while indice < len(cores):
+    print(cores[indice])
+    indice = indice + 1
