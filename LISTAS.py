@@ -16,6 +16,19 @@
 
   as listas em python são representadas por colchetes: []
 
+  type([])
+
+lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
+
+lista2 = ['w', 'e', 's', 'l', 'e', 'y']
+
+lista3 = []
+
+lista4 = list(range(11))
+
+lista5 = list('Wesley da Silva Freire')
+
+
   #podemos facilmente checar se determinado valor esta contido na lista
 num = 7
 if num in lista4:
@@ -214,15 +227,7 @@ print(cores[-3]) # amarelo
 print(cores[-4]) # verde
 
 """
-type([])
 
-lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
 
-lista2 = ['w', 'e', 's', 'l', 'e', 'y']
-
-lista3 = []
-
-lista4 = list(range(11))
-
-lista5 = list('Wesley da Silva Freire')
-
+#            0         1        2         3
+cores = ['verde', 'amarelo', 'azul', 'branco']
