@@ -264,6 +264,7 @@ print(numeros.index(9))
 
 #obs: caso não tenha este elelemto na lista, será apresentado erro
 
+print(numeros.index(5))# retorna o indice do priomenro elemento encontrado
 #exemplo teste
 mercado = ['arroz', 'carne', 'ps4', 'xbox', 'tv', 'batata']
 
