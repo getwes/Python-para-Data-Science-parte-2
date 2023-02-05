@@ -277,8 +277,6 @@ mercado = ['arroz', 'carne', 'ps4', 'xbox', 'tv', 'batata']
 
 print(mercado.index('batata'))
 
-"""
-
 #revisar slicing 
 
 #lista[inicio:fim;passo]
@@ -300,3 +298,8 @@ print(lista[:4])# começa em 0, pega até o indice 4 - 1
 print(lista[1:3])# começa em 1, pega até o indice 3 - 1
 
 #trabalhando com slice de lista com o parametro 'passo'
+
+print(lista[1::2])# começa em 1, vai ate o final de 2 em 2
+
+print(lista[::2])# começa em 0, vai ate o final de 2 em 2
+
