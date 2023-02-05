@@ -289,5 +289,12 @@ print(mercado.index('batata'))
 lista = [1, 2, 3, 4]
 print(lista[1:]) # iniciando no indice 1 e pegando todos os elementos restantes
 #posso pedir para pegar todos os indices usando ::
+# podemos usar numeros negativos tambem -1, -2, -3
 
 #trabalhando com slice de lista com o parametro 'fim'
+
+print(lista[:2])# começa em 0, pega até o indice 2 - 1
+
+print(lista[:4])# começa em 0, pega até o indice 4 - 1
+
+print(lista[1:3])# começa em 1, pega até o indice 3 - 1
