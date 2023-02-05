@@ -262,6 +262,8 @@ print(numeros.index(6))
 #em qual indice da lista esta o valor 9?
 print(numeros.index(9))
 
+#obs: caso não tenha este elelemto na lista, será apresentado erro
+
 #exemplo teste
 mercado = ['arroz', 'carne', 'ps4', 'xbox', 'tv', 'batata']
 
