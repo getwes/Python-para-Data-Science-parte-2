@@ -257,6 +257,12 @@ print(lista)
 numeros = [5, 6, 7, 8, 9, 10]
 
 #em qual indice da lista esta o valor 6?
-print(numeros.indice(6))
+print(numeros.index(6))
 
-#em qual indice est o valor 9?
+#em qual indice da lista esta o valor 9?
+print(numeros.index(9))
+
+#exemplo teste
+mercado = ['arroz', 'carne', 'ps4', 'xbox', 'tv', 'batata']
+
+print(mercado.index('batata'))
