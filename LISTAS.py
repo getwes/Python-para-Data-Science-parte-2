@@ -219,7 +219,7 @@ print(cores[3]) # branco
 
 #fazer acesso aos elementos de forma indexado inversa
 
-print(cores[-1]) 
-print(cores[-2]) 
-print(cores[-3]) 
-print(cores[-4s]) 
+print(cores[-1]) # branco
+print(cores[-2]) # azul
+print(cores[-3]) # amarelo
+print(cores[-4]) # verde
