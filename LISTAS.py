@@ -325,7 +325,6 @@ print(max(lista)) # maximo valor
 print(min(lista)) # minimo valor
 print(len(lista)) # tamanho da lista
 
-"""
 #transformar uma lista em tupla
 
 lista = [1, 2, 3, 4, 5, 6]
@@ -333,3 +332,7 @@ print(lista)
 print(type(lista))
 
 tupla = tuple(lista)
+print(tupla)
+print(type(tupla))
+
+"""
