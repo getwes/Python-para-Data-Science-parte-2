@@ -344,3 +344,5 @@ num1, num2, num3 = lista
 print(num1)
 print(num2)
 print(num3)
+
+#obs: se tivermos mais elementos para desempacotare do que variaveis para receber os valores, terremos valueerror 
