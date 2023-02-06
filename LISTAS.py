@@ -335,7 +335,6 @@ tupla = tuple(lista)
 print(tupla)
 print(type(tupla))
 
-"""
 #desempacotamento de listas
 
 lista = [1, 2, 3]
@@ -346,3 +345,20 @@ print(num2)
 print(num3)
 
 #obs: se tivermos um numero diferente de elementos na lista ou variaveis para receber os dados , terremos valueerror 
+
+
+"""
+#copiando uma lista para outra (shallow copy e deep copy)
+
+#forma 1
+
+lista = [1, 2, 3]
+print(lista)
+
+nova = lista.copy()
+print(nova)
+
+nova.append(4)
+
+print(lista)
+print(nova)
