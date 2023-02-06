@@ -362,3 +362,6 @@ nova.append(4)
 
 print(lista)
 print(nova)
+
+#veja que utilizarmos lista.copy() copiamos os dados da lista para uma nova lista, mas elas
+#ficaram totalmente independentes, ou seja, modificando uma lista, não afeta a outra
