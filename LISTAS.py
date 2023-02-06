@@ -367,10 +367,6 @@ print(nova)
 
 #forma 2 - shallow copy
 
-
-"""
-
-
 #forma 2 - shallow copy
 
 lista = [1, 2, 3]
@@ -387,3 +383,6 @@ print(nova)
 #veja que ultilizamos a copia via atribuição e copiamos os dados da lista para a nova lista, mas
 #apos realizar modificação em uma das lisas, essa modificação se refletiu em ambas as listas.
 #isso em python é chamado de shallow copy.
+
+
+"""
