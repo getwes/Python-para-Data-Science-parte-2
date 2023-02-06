@@ -336,3 +336,11 @@ print(tupla)
 print(type(tupla))
 
 """
+#desempacotamento de listas
+
+lista = [1, 2, 3]
+
+num1, num2, num3 = lista
+print(num1)
+print(num2)
+print(num3)
