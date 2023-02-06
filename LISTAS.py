@@ -350,12 +350,12 @@ print(num3)
 """
 #copiando uma lista para outra (shallow copy e deep copy)
 
-#forma 1
+#forma 1 - depp copy
 
 lista = [1, 2, 3]
 print(lista)
 
-nova = lista.copy()
+nova = lista.copy() # copia
 print(nova)
 
 nova.append(4)
@@ -366,3 +366,10 @@ print(nova)
 #veja que utilizarmos lista.copy() copiamos os dados da lista para uma nova lista, mas elas
 #ficaram totalmente independentes, ou seja, modificando uma lista, não afeta a outra. isso em python
 # é chamado de deep copy (copia profunda)
+
+#forma 2 - shallow copy
+
+lista = [1, 2, 3]
+print(lista)
+
+nova = lista # copia
