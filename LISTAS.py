@@ -364,4 +364,5 @@ print(lista)
 print(nova)
 
 #veja que utilizarmos lista.copy() copiamos os dados da lista para uma nova lista, mas elas
-#ficaram totalmente independentes, ou seja, modificando uma lista, não afeta a outra
+#ficaram totalmente independentes, ou seja, modificando uma lista, não afeta a outra. isso em python
+# é chamado de deep copy (copia profunda)
