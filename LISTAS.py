@@ -345,4 +345,4 @@ print(num1)
 print(num2)
 print(num3)
 
-#obs: se tivermos mais elementos para desempacotare do que variaveis para receber os valores, terremos valueerror 
+#obs: se tivermos um numero diferente de elementos na lista ou variaveis para receber os dados , terremos valueerror 
