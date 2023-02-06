@@ -346,8 +346,6 @@ print(num3)
 
 #obs: se tivermos um numero diferente de elementos na lista ou variaveis para receber os dados , terremos valueerror 
 
-
-"""
 #copiando uma lista para outra (shallow copy e deep copy)
 
 #forma 1 - depp copy
@@ -369,7 +367,19 @@ print(nova)
 
 #forma 2 - shallow copy
 
+
+"""
+
+
+#forma 2 - shallow copy
+
 lista = [1, 2, 3]
 print(lista)
 
 nova = lista # copia
+print(nova)
+
+nova.append(4)
+
+print(lista)
+print(nova)
