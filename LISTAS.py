@@ -383,3 +383,7 @@ nova.append(4)
 
 print(lista)
 print(nova)
+
+#veja que ultilizamos a copia via atribuição e copiamos os dados da lista para a nova lista, mas
+#apos realizar modificação em uma das lisas, essa modificação se refletiu em ambas as listas.
+#isso em python é chamado de shallow copy.
