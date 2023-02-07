@@ -10,8 +10,10 @@ tuplas (tuple)
  2 - as tuplas são imutaveis: isso significa que ao se criar uma tupla ela não muda. toda
  operação em uma tupla gera uma nova tupla.
 """
-print(type(()))
 
 # cuidado 1 : as tuplas são representadas por (), mas veja:
 
 tupla1 = (1, 2, 3, 4, 5, 6)
+print(tupla1)
+
+print(type((tupla1)))
