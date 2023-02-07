@@ -22,3 +22,5 @@ tupla2 = 1, 2, 3, 4, 5, 6
 print(tupla2)
 
 print(type((tupla2)))
+
+#cuidado 2: tuplas com 1 elemento
