@@ -11,3 +11,7 @@ tuplas (tuple)
  operação em uma tupla gera uma nova tupla.
 """
 print(type(()))
+
+# cuidado 1 : as tuplas são representadas por (), mas veja:
+
+tupla1 = (1, 2, 3, 4, 5, 6)
