@@ -24,3 +24,6 @@ print(tupla2)
 print(type((tupla2)))
 
 #cuidado 2: tuplas com 1 elemento
+
+tupla3 = (4)
+print(tupla3)
