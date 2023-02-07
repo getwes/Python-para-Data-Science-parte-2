@@ -279,7 +279,7 @@ print(mercado.index('batata'))
 
 #revisar slicing 
 
-#lista[inicio:fim;passo]
+#lista[inicio:fim:passo]
 #range(inicio:fim:passo)
 
 #trabalhando com slice de lista com o parametro 'inicio'
@@ -386,3 +386,4 @@ print(nova)
 
 
 """
+
