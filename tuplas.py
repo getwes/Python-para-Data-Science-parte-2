@@ -27,3 +27,5 @@ print(type((tupla2)))
 
 tupla3 = (4)
 print(tupla3)
+
+print(type((tupla3)))
