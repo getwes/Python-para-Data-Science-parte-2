@@ -19,3 +19,6 @@ print(tupla1)
 print(type((tupla1)))
 
 tupla2 = 1, 2, 3, 4, 5, 6
+print(tupla2)
+
+print(type((tupla2)))
