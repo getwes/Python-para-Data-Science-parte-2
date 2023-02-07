@@ -7,3 +7,4 @@ tuplas (tuple)
 
  1 - as tuplas são representadas por parenteses ()
 """
+print(type(()))
