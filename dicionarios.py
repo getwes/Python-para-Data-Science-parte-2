@@ -8,4 +8,4 @@ obs: em algumas linguagem de programação, os dicionarios python são conhecido
 
 dicionarios são representados por chave {}.
 """
-print(type({}))
+paisese =
