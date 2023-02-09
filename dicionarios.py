@@ -13,7 +13,10 @@ obs: sobre dicionarios
 - tanto chave quanto valor podem ser de qualquer tipo de dado;
 - podemos misturar tipos de dados;s
 """
+#criação de dicionarios
+#forma 1 (mais comum)
 paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
 
 print(paises)
 print(type(paises))
+
