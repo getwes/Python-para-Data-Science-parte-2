@@ -7,6 +7,11 @@ obs: em algumas linguagem de programação, os dicionarios python são conhecido
  dicionarios são coleções do tipo chave/valor.
 
 dicionarios são representados por chave {}.
+
+obs: sobre dicionarios
+- chave e valor são separados por dois pontos 'chave:valor;
+- tanto chave quanto valor podem ser de qualquer tipo de dado;
+- podemos misturar tipos de dados;s
 """
 paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
 
