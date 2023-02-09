@@ -8,4 +8,5 @@ obs: em algumas linguagem de programação, os dicionarios python são conhecido
 
 dicionarios são representados por chave {}.
 """
-paises = {'br': 'brasil', 'eua'}
+paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
+
