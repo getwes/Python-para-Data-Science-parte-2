@@ -40,3 +40,4 @@ print(paises['br'])
 
 print(paises.get('br'))
 print(paises.get('py'))
+print(paises.get('ru'))
