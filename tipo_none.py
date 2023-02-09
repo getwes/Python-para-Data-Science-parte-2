@@ -1,0 +1,3 @@
+"""
+otipo de dado none
+"""
