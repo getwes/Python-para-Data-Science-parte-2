@@ -32,4 +32,6 @@ paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
 
 #froma 1 - acessando via chave, da mesma froma que lista/tupla
 print(paises['br'])
-print(paises['py'])
+#print(paises['ru'])
+
+ #obs: caso tentamos fazer um acesso ultilizando uma chave que não existe, teremoa o erro keyerror
