@@ -11,8 +11,8 @@ dicionarios são representados por chave {}.
 obs: sobre dicionarios
 - chave e valor são separados por dois pontos 'chave:valor;
 - tanto chave quanto valor podem ser de qualquer tipo de dado;
-- podemos misturar tipos de dados;s
-"""
+- podemos misturar tipos de dados;
+
 #criação de dicionarios
 #forma 1 (mais comum)
 paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
@@ -25,3 +25,4 @@ paises = dict(br = 'brasil', eua = 'estados unidos', py = 'paraguai')
 
 print (paises)
 print(type(paises))
+"""
