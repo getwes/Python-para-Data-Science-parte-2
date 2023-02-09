@@ -35,3 +35,8 @@ print(paises['br'])
 #print(paises['ru'])
 
  #obs: caso tentamos fazer um acesso ultilizando uma chave que não existe, teremoa o erro keyerror
+
+ #forma 2 - acesso via get - recomendado
+
+print(paises.get('br'))
+print(paises.get('py'))
