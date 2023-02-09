@@ -5,4 +5,7 @@ obs: em algumas linguagem de programação, os dicionarios python são conhecido
  por mapas.
 
  dicionarios são coleções do tipo chave/valor.
+
+
 """
+
