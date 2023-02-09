@@ -20,4 +20,8 @@ paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
 print(paises)
 print(type(paises))
 
+# forma 2 (menos comum)
 paises = dict(br = 'brasil', eua = 'estados unidos', py = 'paraguai')
+
+print (paises)
+print(type(paises))
