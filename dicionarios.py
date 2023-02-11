@@ -36,16 +36,22 @@ print(paises['br'])
 
  #forma 2 - acesso via get - recomendado
 
+ paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
+
 print(paises.get('br'))
 print(paises.get('py'))
 print(paises.get('ru'))
-"""
-paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
 
-pais = paises.get('py')
+pais = paises.get('ru',)
 
 if pais:
     print(f'encontrei o pais {pais}')
 
 else:
     print('não encontrei o pais')
+"""
+paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
+
+pais = paises.get('ru', 'não contrado')
+    
+print(f'encontrei o pais {pais}')
