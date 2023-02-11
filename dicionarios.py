@@ -42,16 +42,10 @@ print(paises.get('ru'))
 """
 paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
 
-#acessando elementos
+russia = paises.get('ru')
 
-#froma 1 - acessando via chave, da mesma froma que lista/tupla
-print(paises['br'])
-#print(paises['ru'])
+if russia:
+    print('encontrei o pais')
 
- #obs: caso tentamos fazer um acesso ultilizando uma chave que não existe, teremoa o erro keyerror
-
- #forma 2 - acesso via get - recomendado
-
-print(paises.get('br'))
-print(paises.get('py'))
-print(paises.get('ru'))
+else:
+    print('não encontrei o pais')
