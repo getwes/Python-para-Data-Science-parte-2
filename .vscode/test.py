@@ -40,5 +40,18 @@ else:
     print(f"nao temos chocolate")
 """
 
+br = 'brasil'
+pa = 'paris'
+ru = 'rusia'
+
+pais = input('digite o nome do seu pais: ')
+if pais == br:
+    print('seu pais é brasi')
+elif pais == pa:
+    print('seu pais é paris')
+elif pais == ru:
+    print('seu pais é paris')
+else:
+    print(' não encontrei seu pais')
 
 
