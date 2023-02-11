@@ -9,7 +9,8 @@ errado: none
 
 quando ultilizamos??
 
-- podemos ultilizar None quando queremos criar uma variavel e inicializa-la com um tipo sem tipo,antes de recebermos um valor final.
+- podemos ultilizar None quando queremos criar uma variavel e inicializa-la com um tipo sem tipo,antes 
+de recebermos um valor final.
 """
 
 numero = None
