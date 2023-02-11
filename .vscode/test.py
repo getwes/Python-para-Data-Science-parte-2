@@ -23,7 +23,7 @@ print(lista1)
 """
 # iniciar uma procura de itens
 #  no super mercado para compor uma cesta basica.
-
+"""
 type([])
 
 listamercado = ['arroz', 'feijao', 'oleo', 'sal', 'cafe', 'milho', 'biscoito', ]
@@ -38,3 +38,7 @@ if 'chocolate' in listamercado:
     print("temos chocolate")
 else:
     print(f"nao temos chocolate")
+"""
+
+
+
