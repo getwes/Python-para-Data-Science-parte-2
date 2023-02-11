@@ -4,3 +4,7 @@ tipo vazio, falar que é um tipo sem tipo é mais apropriado.
 """
 
 numero = None
+
+print(numero)
+
+print(type(numero))
