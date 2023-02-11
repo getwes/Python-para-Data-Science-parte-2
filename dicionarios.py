@@ -42,10 +42,10 @@ print(paises.get('ru'))
 """
 paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
 
-russia = paises.get('ru')
+pais = paises.get('ru')
 
-if russia:
-    print('encontrei o pais')
+if pais:
+    print(f'encontrei o pais{pais}')
 
 else:
-    print('não encontrei o pais')
+    print('não encontrei o pais')S
