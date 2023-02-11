@@ -40,6 +40,7 @@ else:
     print(f"nao temos chocolate")
 """
 
+
 br = 'brasil'
 pa = 'paris'
 ru = 'rusia'
