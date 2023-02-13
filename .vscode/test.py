@@ -38,10 +38,10 @@ if 'chocolate' in listamercado:
     print("temos chocolate")
 else:
     print(f"nao temos chocolate")
-"""
 
+    # teste
 
-br = 'brasil'
+    br = 'brasil'
 pa = 'paris'
 ru = 'rusia'
 
@@ -55,4 +55,26 @@ elif pais == ru:
 else:
     print(' não encontrei seu pais')
 
+"""
 
+
+produtos = ["ABC123", "acd012", " ABS111", "AbB222"]
+
+#texto = "abd012"
+#texto = texto.upper() # upper() serve para trasformar as letras minusculas em maiusculas
+#texto = texto.strip() # strip() serve para remover espaços do começo e do fim
+#print(texto)
+
+def tratar_texto(texto):
+    texto = texto.upper()
+    texto = texto.strip()
+    return texto
+
+#texto = " abd012 "
+#texto = tratar_texto(texto)
+#print(texto)
+
+for i, produto in enumerate(produtos):
+    produtos[i] = tratar_texto(produto)
+
+print(produtos)
