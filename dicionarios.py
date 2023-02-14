@@ -49,7 +49,9 @@ if pais:
 
 else:
     print('não encontrei o pais')
-# podemos definir um valorpadrão para caso não encontremos o objseto com a chave informada
+
+_____________________________________________________
+# podemos definir um valor padrão para caso não encontremos o objseto com a chave informada
     pais = paises.get('ru', 'não contrado')
     
 print(f'encontrei o pais {pais}')
@@ -57,6 +59,4 @@ print(f'encontrei o pais {pais}')
 """
 paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
 
-pais = paises.get('ru', 'não contrado')
-    
-print(f'encontrei o pais {pais}')
+
