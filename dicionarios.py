@@ -136,9 +136,9 @@ print(receita)
 # se a chave não existir sera gerado um keyerror
 # obs: neste caso o valor removiodo não é retornado.
 
-"""
+
 # imagine que voce tem um comercio eletronico, onde temos um carrinho de comprar na qual adicionamos produtos.
-"""
+
 carrinho de compras:
 produto 1:
     -nome;
@@ -149,7 +149,7 @@ produto 2:
     -quantidade;
     -preço;
 
-"""
+
 # 1 - poderiamos ultilizar uma lista para isso? sim
 carrinho = []
 
@@ -186,4 +186,9 @@ carrinho.append(produto2)
 print(carrinho)
 
 # desta forma, facilmente adicionamos ou removemos produtos no carrinho e em cada produto
-#podemos teer a certeza sobre cada informação
+#podemos teer a certeza sobre cada informação.
+
+
+"""
+
+
