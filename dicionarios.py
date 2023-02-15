@@ -58,9 +58,13 @@ _____________________________________________________
     
 print(f'encontrei o pais {pais}')
 
-"""
+
 paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
 # podemos verificar se determinada chave se encontra em um dicionario
 print('br' in paises)
 print('ru' in paises)
 print('estados unidos' in paises)
+
+if 'ru' in paises:
+    russia = paises['ru']
+"""
