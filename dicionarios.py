@@ -67,14 +67,15 @@ print('estados unidos' in paises)
 
 if 'ru' in paises:
     russia = paises['ru']
-"""
+
+
 # podemos ultilizar qualquer tipo de dados (int, float, string, bolean), inclusive lista, tupla dicionario, como chaves
 #de dicionarios.
 
 # tupla é bom para se usar como chave pois são imutavel não pode ser alterado durante o codigo
 # tuplas por exemplo são bastabte interessantes de serem utilizadas como chave de dicionario, pois as mesmas
 #são imutaveis
-s
+
 localidades = {
     (35.6895, 39.6917): 'escritorio em tokio',
     (40.7128, 74.0060): 'escritorio em nova york',
@@ -82,3 +83,4 @@ localidades = {
 }
 print(localidades)
 print(type(localidades))
+"""
