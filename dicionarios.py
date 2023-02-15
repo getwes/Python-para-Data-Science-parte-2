@@ -177,8 +177,13 @@ print(carrinho)
 
 carrinho = []
 
-produto1 = {'nome': ' playstation 4', 'quantidade': 1, 'preço': 230.00}
+produto1 = {'nome': ' playstation 4', 'quantidade': 1, 'preço': 2300.00}
 produto2 = {'nome': ' god of war4', 'quantidade': 1, 'preço': 150.00}
 
 carrinho.append(produto1)
 carrinho.append(produto2)
+
+print(carrinho)
+
+# desta forma, facilmente adicionamos ou removemos produtos no carrinho e em cada produto
+#podemos teer a certeza sobre cada informação
