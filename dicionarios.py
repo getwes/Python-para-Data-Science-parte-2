@@ -121,7 +121,7 @@ print(receita)
 """
 # remover dados de um dicionario]
 receita = {'jan': 100, 'fev': 120, 'mar': 300}
-# forma 1
+# forma 1 - forma mais comum
 ret = receita.pop('mar')
 print(ret)
 
@@ -130,6 +130,9 @@ print(receita)
 # obs 2: ao removermos um objeto, o valor deste objeto é sempre retornado.
 
 # froma 2
-
+# del de deletar
 del receita['fev']
 print(receita)
+
+# se a chave não existir sera gerado um keyerror
+# obs: neste caso o valor removiodo não é retornado.
