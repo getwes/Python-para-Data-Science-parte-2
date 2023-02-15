@@ -105,4 +105,7 @@ print(receita)
 
 # atualizando dados em um dicionario
 
-# froma 1
+# forma 1
+
+receita['mai'] = 550
+print(receita)
