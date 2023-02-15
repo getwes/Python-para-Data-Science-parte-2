@@ -70,3 +70,9 @@ if 'ru' in paises:
 """
 # podemos ultilizar qualquer tipo de dados (int, float, string, bolean), inclusive lista, tupla dicionario, como chaves
 #de dicionarios.
+
+localidades = {
+    (35.6895, 39.6917): 'escritorio em tokio',
+    (40.7128, 74.0060): 'escritorio em tokio',
+    (37.7749, 122.4194): 'escritorio em tokio',
+}
