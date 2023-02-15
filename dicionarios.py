@@ -73,6 +73,8 @@ if 'ru' in paises:
 
 localidades = {
     (35.6895, 39.6917): 'escritorio em tokio',
-    (40.7128, 74.0060): 'escritorio em tokio',
-    (37.7749, 122.4194): 'escritorio em tokio',
+    (40.7128, 74.0060): 'escritorio em nova york',
+    (37.7749, 122.4194): 'escritorio em são paulo',
 }
+print(localidades)
+print(type(localidades))
