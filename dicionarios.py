@@ -96,3 +96,9 @@ print(type(receita))
 receita['abr'] = 350
 
 print(receita)
+
+#forma 2
+
+novo_dado = {'mai': 500}
+receita.update(novo_dado)
+print(receita)
