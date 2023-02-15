@@ -118,7 +118,6 @@ print(receita)
 # conclusão 1: a forma de adicionar novos elementos ou atualizar dados em um dicionarios é a mesma.
 # conclusão 2: em dicionariso, não podemos ter chaves repetidas.
 
-"""
 # remover dados de um dicionario]
 receita = {'jan': 100, 'fev': 120, 'mar': 300}
 # forma 1 - forma mais comum
@@ -136,3 +135,28 @@ print(receita)
 
 # se a chave não existir sera gerado um keyerror
 # obs: neste caso o valor removiodo não é retornado.
+
+"""
+# imagine que voce tem um comercio eletronico, onde temos um carrinho de comprar na qual adicionamos produtos.
+"""
+carrinho de compras:
+produto 1:
+    -nome;
+    -quantidade;
+    -preço;
+produto 2:
+    -nome;
+    -quantidade;
+    -preço;
+
+"""
+# 1 - poderiamos ultilizar uma lista para isso? sim
+ carrinho = []
+
+ produto1 = ['playstation 4', 1, 230.00]
+ produto2 = ['goof of war 4', 1, 150.00]
+
+ carrinho.append(produto1)
+ carrinho.append(produto2)
+
+ print(carrinho)s
