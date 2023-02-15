@@ -119,3 +119,10 @@ print(receita)
 # conclusão 2: em dicionariso, não podemos ter chaves repetidas.
 
 """
+# remover dados de um dicionario]
+receita = {'jan': 100, 'fev': 120, 'mar': 300}
+# forma 1
+
+receita.pop('mar')
+
+# obs: aqui precisamos sempre informar a chave, e casdo não encotre o elemento, um keyerror é retornado.
