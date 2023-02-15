@@ -109,3 +109,8 @@ print(receita)
 
 receita['mai'] = 550
 print(receita)
+
+# forma 2
+
+receita.update({'mai': 600})
+print(receita)s
