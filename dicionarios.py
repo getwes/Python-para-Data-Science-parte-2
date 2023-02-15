@@ -68,3 +68,5 @@ print('estados unidos' in paises)
 if 'ru' in paises:
     russia = paises['ru']
 """
+# podemos ultilizar qualquer tipo de dados (int, float, string, bolean), inclusive lista, tupla dicionario, como chaves
+#de dicionarios.
