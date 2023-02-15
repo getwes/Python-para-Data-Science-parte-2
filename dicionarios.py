@@ -71,6 +71,7 @@ if 'ru' in paises:
 # podemos ultilizar qualquer tipo de dados (int, float, string, bolean), inclusive lista, tupla dicionario, como chaves
 #de dicionarios.
 
+# tupla é bom passa se usar como chave por é imutavel não pode ser alterado durante o codigo
 localidades = {
     (35.6895, 39.6917): 'escritorio em tokio',
     (40.7128, 74.0060): 'escritorio em nova york',
