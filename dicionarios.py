@@ -44,6 +44,8 @@ print(paises.get('ru'))
 
 pais = paises.get('ru',)
 
+# caso o get não encontre o objeto com a chave informada sera retornado o valor none e não sera gerado keyerror
+
 if pais:
     print(f'encontrei o pais {pais}')
 
