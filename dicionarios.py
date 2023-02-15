@@ -113,4 +113,6 @@ print(receita)
 # forma 2
 
 receita.update({'mai': 600})
-print(receita)s
+print(receita)
+
+# conclusão: a forma de adicionar novos elementos ou atualizar dados em um dicionarios é a mesma.
