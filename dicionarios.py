@@ -174,3 +174,11 @@ print(carrinho)
 # teriamos que saber qual é o indice de cada informação no produto.
 
 # 3 - poderiamos ultilizar um dicionario para isso? sim
+
+carrinho = []
+
+produto1 = {'nome': ' playstation 4', 'quantidade': 1, 'preço': 230.00}
+produto2 = {'nome': ' god of war4', 'quantidade': 1, 'preço': 150.00}
+
+carrinho.append(produto1)
+carrinho.append(produto2)
