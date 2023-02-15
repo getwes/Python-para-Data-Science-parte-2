@@ -91,7 +91,7 @@ receita = {'jan': 100, 'fev': 120, 'mar': 300}
 print(receita)
 print(type(receita))
 
-#forma 1
+#forma 1 - mais comum
 
 receita['abr'] = 350
 
@@ -100,5 +100,9 @@ print(receita)
 #forma 2
 
 novo_dado = {'mai': 500}
-receita.update(novo_dado)
+receita.update(novo_dado)# receita.update({'mai': 500})
 print(receita)
+
+# atualizando dados em um dicionario
+
+# froma 1
