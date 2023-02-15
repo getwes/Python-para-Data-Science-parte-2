@@ -162,10 +162,15 @@ carrinho.append(produto2)
 print(carrinho)
 
 # teriamos que saber qual é o indice de cada informação no produto.
+
 # 2 - poderiamos ultilizar uma tupla para isso? sim
 
 produto1 = ('playstation 4', 1, 2300.00)
 produto2 = ('goof of war 4', 1, 150.00)
 
 carrinho = (produto1, produto2)
-print(carrinho)s
+print(carrinho)
+
+# teriamos que saber qual é o indice de cada informação no produto.
+
+# 3 - poderiamos ultilizar um dicionario para isso? sim
