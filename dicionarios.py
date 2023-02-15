@@ -83,7 +83,7 @@ localidades = {
 }
 print(localidades)
 print(type(localidades))
-"""
+
 # adicionar elementos em um dicionario
 
 receita = {'jan': 100, 'fev': 120, 'mar': 300}
@@ -115,4 +115,7 @@ print(receita)
 receita.update({'mai': 600})
 print(receita)
 
-# conclusão: a forma de adicionar novos elementos ou atualizar dados em um dicionarios é a mesma.
+# conclusão 1: a forma de adicionar novos elementos ou atualizar dados em um dicionarios é a mesma.
+# conclusão 2: em dicionariso, não podemos ter chaves repetidas.
+
+"""
