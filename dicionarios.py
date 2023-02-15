@@ -165,4 +165,7 @@ print(carrinho)
 # 2 - poderiamos ultilizar uma tupla para isso? sim
 
 produto1 = ('playstation 4', 1, 2300.00)
-prduto2 = ('goof of war 4', 1, 150.00)
+produto2 = ('goof of war 4', 1, 150.00)
+
+carrinho = (produto1, produto2)
+print(carrinho)s
