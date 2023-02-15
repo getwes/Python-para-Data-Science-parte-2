@@ -163,3 +163,6 @@ print(carrinho)
 
 # teriamos que saber qual é o indice de cada informação no produto.
 # 2 - poderiamos ultilizar uma tupla para isso? sim
+
+produto1 = ('playstation 4', 1, 2300.00)
+prduto2 = ('goof of war 4', 1, 150.00)
