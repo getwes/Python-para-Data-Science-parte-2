@@ -42,9 +42,9 @@ print(paises.get('br'))
 print(paises.get('py'))
 print(paises.get('ru'))
 
-pais = paises.get('ru',)
 
 # caso o get não encontre o objeto com a chave informada sera retornado o valor none e não sera gerado keyerror
+pais = paises.get('ru',)
 
 if pais:
     print(f'encontrei o pais {pais}')
@@ -61,4 +61,6 @@ print(f'encontrei o pais {pais}')
 """
 paises = {'br': 'brasil', 'eua': 'estados unidos', 'py': 'paraguai'}
 
-
+print('br' in paises)
+print('ru' in paises)
+print('estados unidos' in paises)
