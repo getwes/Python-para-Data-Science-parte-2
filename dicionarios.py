@@ -162,3 +162,4 @@ carrinho.append(produto2)
 print(carrinho)
 
 # teriamos que saber qual é o indice de cada informação no produto.
+# 2 - poderiamos ultilizar uma tupla para isso? sim
