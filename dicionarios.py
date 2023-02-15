@@ -84,3 +84,9 @@ localidades = {
 print(localidades)
 print(type(localidades))
 """
+# adicionar elementos em um dicionario
+
+receita = {'jan': 100, 'fev': 120, 'mar': 300}
+
+print(receita)
+print(type(receita))
