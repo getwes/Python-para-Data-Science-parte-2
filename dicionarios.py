@@ -207,10 +207,14 @@ print(type(d))
 
 #copiando um dicionario para outro
 
-# forma 1
-novo = d.copy()
+# forma 1 #deep copy
+novo = d.copy() 
 
 print(novo)
 
 novo['d'] = 4
 
+print(d)
+print(novo)
+
+#forma 2 shallow copy
