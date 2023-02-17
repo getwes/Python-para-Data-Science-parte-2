@@ -190,5 +190,5 @@ print(carrinho)
 
 
 """
-
+# metodos de dicionario
 
