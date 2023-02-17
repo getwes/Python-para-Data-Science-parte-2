@@ -197,4 +197,9 @@ print(carrinho)
 d = dict(a=1, b=2, c=3)
 
 print(d)
-print(type(d))s
+print(type(d))
+
+# limpar o dicionario ( zerar dados)
+
+d.clear()
+print(d)
