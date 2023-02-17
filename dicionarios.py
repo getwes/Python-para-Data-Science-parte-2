@@ -205,3 +205,11 @@ d = dict(a=1, b=2, c=3)
 print(d)
 print(type(d))
 
+#copiando um dicionario para outro
+
+# forma 1
+novo = d.copy()
+
+print(novo)
+
+novo['d'] = 4
