@@ -239,3 +239,9 @@ print(type(usuario))
 
 #obs: o metodo fromkeys recebe dois parametros: um interavel e um valor.
 #ele vai gerar para cada valor do interavel uma cahve e ira atribuir a esta cahve o valor informado.
+
+veja = {}.fromkeys('teste', 'valor')
+print(veja)
+
+veja = {}.fromkeys(range(1, 11))
+print(veja)
