@@ -234,3 +234,5 @@ print(outro)
 print(type(outro))
 
 usuario = {}.fromkeys(['nome', 'pontos', 'email', 'profile'], 'desconhecido')
+print(usuario)
+print(type(usuario))
