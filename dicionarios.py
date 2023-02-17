@@ -232,3 +232,5 @@ outro ={}.fromkeys('a', 'b')
 
 print(outro)
 print(type(outro))
+
+usuario = {}.fromkeys(['nome', 'pontos', 'email', 'profile'], 'desconhecido')
