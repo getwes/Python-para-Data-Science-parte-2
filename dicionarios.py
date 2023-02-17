@@ -189,13 +189,6 @@ print(carrinho)
 #podemos teer a certeza sobre cada informação.
 
 
-# limpar o dicionario ( zerar dados)
-
-d.clear()
-print(d)
-
-
-"""
 # metodos de dicionario
 
 #terminal python dir({})
@@ -204,6 +197,11 @@ d = dict(a=1, b=2, c=3)
 
 print(d)
 print(type(d))
+
+# limpar o dicionario ( zerar dados)
+
+d.clear()
+print(d)
 
 #copiando um dicionario para outro
 
@@ -218,3 +216,13 @@ print(d)
 print(novo)
 
 #forma 2 shallow copy
+
+novo = d
+print(novo)
+novo['d'] = 4
+
+print(d)
+print(novo)
+"""
+
+
