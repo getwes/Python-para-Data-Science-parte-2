@@ -236,3 +236,6 @@ print(type(outro))
 usuario = {}.fromkeys(['nome', 'pontos', 'email', 'profile'], 'desconhecido') # cada um dos seguimentos da lista [] viraram uma chave e desconhecido um valor.s
 print(usuario)
 print(type(usuario))
+
+#obs: o metodo fromkeys recebe dois parametros: um interavel e um valor.
+#ele vai gerar para cada valor do interavel uma cahve e ira atribuir a esta cahve o valor informado.
