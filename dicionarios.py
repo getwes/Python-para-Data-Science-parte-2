@@ -233,6 +233,6 @@ outro ={}.fromkeys('a', 'b')
 print(outro)
 print(type(outro))
 
-usuario = {}.fromkeys(['nome', 'pontos', 'email', 'profile'], 'desconhecido')
+usuario = {}.fromkeys(['nome', 'pontos', 'email', 'profile'], 'desconhecido') # cada um dos seguimentos da lista [] viraram uma chave e desconhecido um valor.s
 print(usuario)
 print(type(usuario))
