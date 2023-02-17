@@ -192,3 +192,5 @@ print(carrinho)
 """
 # metodos de dicionario
 
+#terminal python dir({})
+
