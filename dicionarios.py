@@ -243,5 +243,5 @@ print(type(usuario))
 veja = {}.fromkeys('teste', 'valor')
 print(veja)
 
-veja = {}.fromkeys(range(1, 11))
+veja = {}.fromkeys(range(1, 11), 'novo')
 print(veja)
