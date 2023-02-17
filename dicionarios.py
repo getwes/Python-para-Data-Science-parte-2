@@ -189,6 +189,12 @@ print(carrinho)
 #podemos teer a certeza sobre cada informação.
 
 
+# limpar o dicionario ( zerar dados)
+
+d.clear()
+print(d)
+
+
 """
 # metodos de dicionario
 
@@ -199,7 +205,3 @@ d = dict(a=1, b=2, c=3)
 print(d)
 print(type(d))
 
-# limpar o dicionario ( zerar dados)
-
-d.clear()
-print(d)
