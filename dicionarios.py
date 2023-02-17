@@ -226,3 +226,9 @@ print(novo)
 """
 
 
+#forma não  usual de criação de dicionario 
+
+outro ={}.fromkeys('a', 'b')
+
+print(outro)
+print(type(outro))
