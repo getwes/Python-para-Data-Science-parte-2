@@ -18,9 +18,13 @@ print(receita.keys())
 
 for chave in receita.keys():
     print(receita[chave])
+
+#acessando os valores
+print(receita.values())
+
+for valor in receita.values():
+    print(valor)
 """
 receita = {'jan': 100, 'fev': 120, 'mar': 300}
 print(receita)
 
-#acessando os valores
-print(receita.values())
