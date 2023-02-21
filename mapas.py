@@ -28,3 +28,7 @@ for valor in receita.values():
 receita = {'jan': 100, 'fev': 120, 'mar': 300}
 print(receita)
 
+#desempacotamento de dicionarios
+print(receita.items())
+for chave, valor in receita.items():
+    print(f'chave={chave} e valor={valor}')
