@@ -36,3 +36,8 @@ print(receita)
 # soma*, valor maximo*, valor minimo*, tamanho
 
 # * se os valores forem todos inteiros ou reais
+
+print(sum(receita.values()))
+print(max(receita.values()))
+print(min(receita.values()))
+print(len(receita))
