@@ -12,11 +12,15 @@ for chave in receita:
 
 for chave in receita:
     print(f' em {chave} recebi R$ {receita[chave]}')
-"""
-receita = {'jan': 100, 'fev': 120, 'mar': 300}
-print(receita)
 
+#acessando as chaves
 print(receita.keys())
 
 for chave in receita.keys():
     print(receita[chave])
+"""
+receita = {'jan': 100, 'fev': 120, 'mar': 300}
+print(receita)
+
+#acessando os valores
+print(receita.values())
