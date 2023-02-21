@@ -33,3 +33,6 @@ for chave, valor in receita.items():
 receita = {'jan': 100, 'fev': 120, 'mar': 300}
 print(receita)
 
+# soma*, valor maximo*, valor minimo*, tamanho
+
+# * se os valores forem todos inteiros ou reais
