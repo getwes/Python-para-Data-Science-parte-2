@@ -15,3 +15,5 @@ for chave in receita:
 """
 receita = {'jan': 100, 'fev': 120, 'mar': 300}
 print(receita)
+
+print(receita.keys())
