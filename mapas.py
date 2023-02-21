@@ -12,3 +12,5 @@ for chave in receita:
 for chave in receita:
     print(receita[chave])  # nesse estamos imprimendo  apenas os valores 100 , 120 , 300
 
+for chave in receita:
+    print(f' em {chave} recebi R$ {receita[chave]}')
