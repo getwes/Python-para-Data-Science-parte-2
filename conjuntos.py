@@ -7,5 +7,6 @@
 dito isto, da mesma froma que na matematica:
 
 - sets (conjuntos) não possuem valores duplicados;
--sets (conjuntos)
+-sets (conjuntos) não possuem valores ordenados;
+- valores não são acessados via indice, ou seja, conujuntos não são indexados;
 """
