@@ -25,3 +25,9 @@ diferença entre conjuntos (set) e mapas (dicionarios) em python:
 # forma 1
 
 s = set({1, 2, 3, 4, 5, 5, 6, 7, 2, 3}) #repare que temos valores repetidos.
+
+print(s)
+print(type(s))
+
+#obs: ao criar um conjunto caso seja adiconado um valor ja existente, o mesmo
+# sera iginorado sem gerar error e não fara parte do conjunto.
