@@ -9,4 +9,8 @@ dito isto, da mesma froma que na matematica:
 - sets (conjuntos) não possuem valores duplicados;
 -sets (conjuntos) não possuem valores ordenados;
 - valores não são acessados via indice, ou seja, conujuntos não são indexados;
+
+conjuntos são bons para se ultilizar quando precisamos armazenar elementos
+mas não nos iumportamos com a ordenação deles. quando não precisamos se preocupar
+com chaves,
 """
