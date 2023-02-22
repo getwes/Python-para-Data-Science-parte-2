@@ -20,3 +20,6 @@ diferença entre conjuntos (set) e mapas (dicionarios) em python:
   - um dicionario tem chave/valor;
   - um conjunto tem apenas valor;
 """
+
+# definindo um conjunto:
+# forma 1
