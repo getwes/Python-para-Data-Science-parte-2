@@ -12,5 +12,10 @@ dito isto, da mesma froma que na matematica:
 
 conjuntos são bons para se ultilizar quando precisamos armazenar elementos
 mas não nos iumportamos com a ordenação deles. quando não precisamos se preocupar
-com chaves,
+com chaves, valores e itens duplicados.
+
+os conjuntso (sets) são referenciados em python com chaves {}
+
+diferença entre conjuntos (set) e mapas (dicionarios) em python:
+  - um dicionario tem chave/valor;
 """
