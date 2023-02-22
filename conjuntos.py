@@ -3,4 +3,9 @@
  da matematica.
 
 - aqui no python, os conjuntos são chamados de sets.
-"""s
+
+dito isto, da mesma froma que na matematica:
+
+- sets (conjuntos) não possuem valores duplicados;
+-sets (conjuntos)
+"""
