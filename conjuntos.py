@@ -52,14 +52,13 @@ print(set(lista1))
 """
 # importante lembrar que, além de não termos valores duplicado não temos ordem
 
-dados = '99, 2, 34, 23, 2, 12, 1,44, 5, 34'
-lista = list(dados)
+lista = [99, 2, 34, 23, 2, 12, 1,44, 5, 34]
 print(f'lista: {lista}')
 
-tupla = tuple(dados)
+tupla = (99, 2, 34, 23, 2, 12, 1,44, 5, 34)
 print(f'tupla: {tupla}')
 
-dicionario = (dados, 'dict')
+dicionario = ([99, 2, 34, 23, 2, 12, 1,44, 5, 34], 'dict')
 print(f'dicionario: {dicionario}')
-conjunto = set(dados)
+conjunto = {99, 2, 34, 23, 2, 12, 1,44, 5, 34}
 print(f'conjunto: {conjunto}')
