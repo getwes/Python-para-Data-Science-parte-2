@@ -58,7 +58,7 @@ print(f'lista: {lista}')
 tupla = (99, 2, 34, 23, 2, 12, 1,44, 5, 34)
 print(f'tupla: {tupla}')
 
-dicionario = ([99, 2, 34, 23, 2, 12, 1,44, 5, 34], 'dict')
+dicionario = {}.fromkeys ([99, 2, 34, 23, 2, 12, 1,44, 5, 34], 'dict')
 print(f'dicionario: {dicionario}')
 conjunto = {99, 2, 34, 23, 2, 12, 1,44, 5, 34}
 print(f'conjunto: {conjunto}')
