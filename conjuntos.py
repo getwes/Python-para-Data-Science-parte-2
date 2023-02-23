@@ -83,7 +83,12 @@ for valor in s:
 #nós adicionamos cada cidade em uma lista python, ja que em uma lista podemos adicionar novos elementos
 #e ter repetição.
 
-cidades = ['belo horizonte', 'são paulo', 'campo grande', 'cuiaba', 'campo granded, são paulo', 'cuiaba']
+cidades = ['belo horizonte', 'são paulo', 'campo grande', 'cuiaba', 'campo grande, são paulo', 'cuiaba']
 print(cidades)
-print(len(cidade))
+print(len(cidades))
 
+#agora precisamos saber quantas cidades distintas, ou seja, unicas, temos.
+
+# oque voce faria? faria um loop na lista??
+
+#podemos ultilizar o set para isso 
