@@ -74,7 +74,6 @@ print(type(s))
 for valor in s:
     print(valor)
 
-"""
 #usos interessantes com sets
 
 # imagine que fizemos um formulario de cadastro de visitantes em uma feira ou museu e os visitantes
@@ -94,3 +93,5 @@ print(len(cidades))
 #podemos ultilizar o set para isso:
 
 print(len(set(cidades)))
+
+"""
