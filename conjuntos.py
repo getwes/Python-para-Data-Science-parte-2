@@ -59,5 +59,5 @@ print(f'tupla: {tupla}')
 
 dicionario = (lista, 'dict')
 print(f'dicionario: {dicionario}')
-s = {99, 2, 34, 23, 12, 1,44, 5}
-print(f's: {s}')
+conjunto = {99, 2, 34, 23, 12, 1,44, 5}
+print(f'conjunto: {conjunto}')
