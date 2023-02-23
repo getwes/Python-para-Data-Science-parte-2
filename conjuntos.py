@@ -51,14 +51,16 @@ lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27, 27, 99, 13, 12, 13, 2, 2]
 print(set(lista1))
 """
 # importante lembrar que, além de não termos valores duplicado não temos ordem
-
+#listas aceitam valores duplicado então temos 10 elelemtos
 lista = [99, 2, 34, 23, 2, 12, 1,44, 5, 34]
-print(f'lista: {lista} com {len(lista)} elemento')
+print(f'lista: {lista} com {len(lista)} elemento') 
 
+#tupla aceitam valores duplicado então temos 10 elelemtos
 tupla = (99, 2, 34, 23, 2, 12, 1,44, 5, 34)
 print(f'tupla: {tupla} com {len(tupla)} elemento')
-
+#dicionario não aceitam chaves duplicadas, então temos 8 elelemtos
 dicionario = {}.fromkeys ([99, 2, 34, 23, 2, 12, 1,44, 5, 34], 'dict')
 print(f'dicionario: {dicionario} com {len(dicionario)} elemento')
+#conjunto não aceitam valores duplicado, então temos 8 elelemtos
 conjunto = {99, 2, 34, 23, 2, 12, 1,44, 5, 34}
-print(f'conjunto: {conjunto}' com {len(conjunto)} elemento)
+print(f'conjunto: {conjunto} com {len(conjunto)} elemento')
