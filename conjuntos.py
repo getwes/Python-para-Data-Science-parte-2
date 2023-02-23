@@ -51,3 +51,5 @@ lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27, 27, 99, 13, 12, 13, 2, 2]
 print(set(lista1))
 """
 # importante lembrar que, além de não termos valores duplicado não temos ordem
+
+s = {99, 2, 34, 23, 12, 1,44, 5}
