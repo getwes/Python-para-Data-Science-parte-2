@@ -107,5 +107,5 @@ print(s)
 
 #forma 1
 
-s.remove(3)
+s.remove(3) #não é indice informamos o valor a ser removido 
 print(s)
