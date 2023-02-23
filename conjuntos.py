@@ -101,4 +101,11 @@ s.add(4) #duplicidade não gera erro. simplesmenrte é iginorado e não adiciona
 print(s)
 
 """
+# remover elementos em um conjunto
 s = {1, 2, 3}
+print(s)
+
+#forma 1
+
+s.remove(3)
+print(s)
