@@ -53,7 +53,7 @@ print(set(lista1))
 # importante lembrar que, além de não termos valores duplicado não temos ordem
 
 lista = [99, 2, 34, 23, 2, 12, 1,44, 5, 34]
-print(f'lista: {lista}')
+print(f'lista: {lista} com {len(lista)}')
 
 tupla = (99, 2, 34, 23, 2, 12, 1,44, 5, 34)
 print(f'tupla: {tupla}')
