@@ -37,3 +37,5 @@ print(type(s))
 s = ({1, 2, 3, 4, 5, 5})
 print(s)
 print(type(s))
+
+#set não tem repeti~çao de dados
