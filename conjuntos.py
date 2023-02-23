@@ -45,7 +45,7 @@ if 3 in s:
 else:
     print('não tem 3')
 """
-
+# aqui podemos ver que o set pode ser usando em lista, dicionario, conjunto ,tupla 
 lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27, 27, 99, 13, 12, 13, 2, 2]
 
 print(set(lista1))
