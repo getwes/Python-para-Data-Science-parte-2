@@ -39,3 +39,7 @@ print(s)
 print(type(s))
 
 #set não tem repeti~çao de dados
+
+if 3 in s:
+    print('tem o 3')
+else:
