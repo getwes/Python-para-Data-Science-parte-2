@@ -95,3 +95,7 @@ print(len(cidades))
 print(len(set(cidades)))
 
 """
+# adicionando elementos em um conjunto
+s = {1, 2, 3}
+s.add(4)
+print(s)
