@@ -43,3 +43,4 @@ print(type(s))
 if 3 in s:
     print('tem o 3')
 else:
+    print('não tem 3')
