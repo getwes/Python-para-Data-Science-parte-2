@@ -75,5 +75,15 @@ for valor in s:
     print(valor)
 
 """
+#usos interessantes com sets
 
+# imagine que fizemos um formulario de cadastro de visitantes em uma feira ou museu e os visitantes
+#informam manualmente a ciade de onde vieram.
+
+#nós adicionamos cada cidade em uma lista python, ja que em uma lista podemos adicionar novos elementos
+#e ter repetição.
+
+cidades = ['belo horizonte', 'são paulo', 'campo grande', 'cuiaba', 'campo granded, são paulo', 'cuiaba']
+print(cidades)
+print(len(cidade))
 
