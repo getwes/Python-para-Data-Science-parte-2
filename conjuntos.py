@@ -109,3 +109,10 @@ print(s)
 
 s.remove(3) #não é indice informamos o valor a ser removido 
 print(s)
+
+#obs: caso o valor não seja encontrado seja gerado o erro keyerror
+
+#forma 2
+
+s.discard(2)
+print(s)
