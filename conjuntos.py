@@ -94,9 +94,11 @@ print(len(cidades))
 
 print(len(set(cidades)))
 
-"""
 # adicionando elementos em um conjunto
 s = {1, 2, 3}
 s.add(4)
 s.add(4) #duplicidade não gera erro. simplesmenrte é iginorado e não adicionado
 print(s)
+
+"""
+s = {1, 2, 3}
