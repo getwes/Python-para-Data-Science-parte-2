@@ -68,3 +68,9 @@ print(f'conjunto: {conjunto} com {len(conjunto)} elemento')
 #assim como todos outros conjuntos python podemos colocar tipos de dados misturados em sets
 
 s = {1, 'b', True, 34.22, 44}
+print(s)
+print(type(s))
+
+for valor in s:
+    print(valor)
+
