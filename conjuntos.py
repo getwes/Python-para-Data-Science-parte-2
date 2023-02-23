@@ -19,9 +19,8 @@ os conjuntso (sets) são referenciados em python com chaves {}
 diferença entre conjuntos (set) e mapas (dicionarios) em python:
   - um dicionario tem chave/valor;
   - um conjunto tem apenas valor;
-"""
 
-# definindo um conjunto:
+  # definindo um conjunto:
 # forma 1
 
 s = set({1, 2, 3, 4, 5, 5, 6, 7, 2, 3}) #repare que temos valores repetidos.
@@ -45,3 +44,8 @@ if 3 in s:
     print('tem o 3')
 else:
     print('não tem 3')
+"""
+
+lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27, 27, 99, 13, 12, 13, 2, 2]
+
+print(set(lista1))
