@@ -66,3 +66,5 @@ conjunto = {99, 2, 34, 23, 2, 12, 1,44, 5, 34}
 print(f'conjunto: {conjunto} com {len(conjunto)} elemento')
 """
 #assim como todos outros conjuntos python podemos colocar tipos de dados misturados em sets
+
+s = {1, 'b', True, 34.22, 44}
