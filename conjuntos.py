@@ -52,4 +52,10 @@ print(set(lista1))
 """
 # importante lembrar que, além de não termos valores duplicado não temos ordem
 lista = [99, 2, 34, 23, 12, 1,44, 5]
+print(f'lista: {lista}')
+
+tupla = (99, 2, 34, 23, 12, 1,44, 5)
+print(f'tupla: {tupla}')
+
 s = {99, 2, 34, 23, 12, 1,44, 5}
+print(f's: {s}')
