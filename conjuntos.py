@@ -83,7 +83,7 @@ for valor in s:
 #nós adicionamos cada cidade em uma lista python, ja que em uma lista podemos adicionar novos elementos
 #e ter repetição.
 
-cidades = ['belo horizonte', 'são paulo', 'campo grande', 'cuiaba', 'campo grande, são paulo', 'cuiaba']
+cidades = ['belo horizonte', 'são paulo', 'campo grande', 'cuiaba', 'campo grande', 'são paulo', 'cuiaba']
 print(cidades)
 print(len(cidades))
 
@@ -91,4 +91,6 @@ print(len(cidades))
 
 # oque voce faria? faria um loop na lista??
 
-#podemos ultilizar o set para isso 
+#podemos ultilizar o set para isso:
+
+print(len(set(cidades)))
