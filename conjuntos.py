@@ -53,12 +53,12 @@ print(set(lista1))
 # importante lembrar que, além de não termos valores duplicado não temos ordem
 
 lista = [99, 2, 34, 23, 2, 12, 1,44, 5, 34]
-print(f'lista: {lista} com {len(lista)}')
+print(f'lista: {lista} com {len(lista)} elemento')
 
 tupla = (99, 2, 34, 23, 2, 12, 1,44, 5, 34)
-print(f'tupla: {tupla}')
+print(f'tupla: {tupla} com {len(tupla)} elemento')
 
 dicionario = {}.fromkeys ([99, 2, 34, 23, 2, 12, 1,44, 5, 34], 'dict')
-print(f'dicionario: {dicionario}')
+print(f'dicionario: {dicionario} com {len(dicionario)} elemento')
 conjunto = {99, 2, 34, 23, 2, 12, 1,44, 5, 34}
-print(f'conjunto: {conjunto}')
+print(f'conjunto: {conjunto}' com {len(conjunto)} elemento)
