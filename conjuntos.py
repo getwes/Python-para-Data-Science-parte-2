@@ -157,14 +157,15 @@ print(s)
 #imaigne que temos dois conjuntos um contendo estudantes do curso python e um
 # contendo estudantes do curso java.
 
-estudante_python = {'marcos', 'patrcia', 'ellen', 'pedro', 'julia', 'guilherme'}
-estudante_java = {'fernando', 'gustava', 'julia', 'ana', 'patricia'}
+estudante_python = {'marcos', 'patricia', 'ellen', 'pedro', 'julia', 'guilherme'}
+estudante_java = {'fernando', 'gustavo', 'julia', 'ana', 'patricia'}
 
 #veja que alguns alunos que estudam python tambem estudam java.
 
 #precisamos gerar um conjunto com nomes de estudantes unicos
 
 # forma 1 - ultilizando union
+#union é união
 
-unicos1 = estudante_python.union(estudante_java)
+unicos1 = estudante_python.union(estudante_java) # mesmo que inverter os estrudantes e seu curso ira dar o mesmo resultado.
 print(unicos1)
