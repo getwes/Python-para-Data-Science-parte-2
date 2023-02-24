@@ -152,6 +152,10 @@ print(s)
 s.clear()
 print(s)
 
+estudante_python = {'marcos', 'patricia', 'ellen', 'pedro', 'julia', 'guilherme'}
+estudante_java = {'fernando', 'gustavo', 'julia', 'ana', 'patricia'}
+
+
 #precisamos gerar um conjunto com nomes de estudantes unicos
 
 # forma 1 - ultilizando union
@@ -178,7 +182,7 @@ print(ambos1)
 
 ambos2 = estudante_python & estudante_java
 print(ambos2)
-"""
+
 # metodos matematicos de conjunto
 
 #imaigne que temos dois conjuntos um contendo estudantes do curso python e um
@@ -192,5 +196,16 @@ estudante_java = {'fernando', 'gustavo', 'julia', 'ana', 'patricia'}
 so_python = estudante_python.difference(estudante_java)
 print(so_python)
 
-so_java = estudante_python.difference(estudante_python)
+so_java = estudante_java.difference(estudante_python)
 print(so_java)
+"""
+# soma*, valormaximo*, valor minimo*, tamanho
+
+# * se os valres forem todos inteiros ou reais
+
+s = {1, 2, 3, 4, 5, 6}
+
+print(sum(s))
+print(max(s))
+print(min(s))
+print(len(s))
