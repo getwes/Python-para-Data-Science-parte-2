@@ -119,4 +119,21 @@ print(s)
 
 #obs: se o valor não for encotnrado nem um erro é gerado
 
+s = {1, 2, 3}
+print(s)
+# copiando um conjunto para outro..
+
+#forma 1 - deep copy
+novo = s.copy()
+print(novo)
+
+novo.add(4) 
+
+print(novo)
+print(s)
+
 """
+s = {1, 2, 3}
+print(s)
+
+# forma 2 -shallow copy
