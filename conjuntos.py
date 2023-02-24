@@ -100,7 +100,7 @@ s.add(4)
 s.add(4) #duplicidade não gera erro. simplesmenrte é iginorado e não adicionado
 print(s)
 
-"""
+
 # remover elementos em um conjunto
 s = {1, 2, 3}
 print(s)
@@ -110,9 +110,13 @@ print(s)
 s.remove(3) #não é indice informamos o valor a ser removido 
 print(s)
 
-#obs: caso o valor não seja encontrado seja gerado o erro keyerror
+#obs: caso o valor não seja encontrado seja gerado o erro keyerror. nem um valor é retornado
 
 #forma 2
 
 s.discard(2)
 print(s)
+
+#obs: se o valor não for encotnrado nem um erro é gerado
+
+"""
