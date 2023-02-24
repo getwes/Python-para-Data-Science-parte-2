@@ -151,16 +151,6 @@ print(s)
 
 s.clear()
 print(s)
-"""
-# metodos matematicos de conjunto
-
-#imaigne que temos dois conjuntos um contendo estudantes do curso python e um
-# contendo estudantes do curso java.
-
-estudante_python = {'marcos', 'patricia', 'ellen', 'pedro', 'julia', 'guilherme'}
-estudante_java = {'fernando', 'gustavo', 'julia', 'ana', 'patricia'}
-
-#veja que alguns alunos que estudam python tambem estudam java.
 
 #precisamos gerar um conjunto com nomes de estudantes unicos
 
@@ -174,3 +164,20 @@ print(unicos1)
 
 unicos2 = estudante_python | estudante_java
 print(unicos2)
+"""
+# metodos matematicos de conjunto
+
+#imaigne que temos dois conjuntos um contendo estudantes do curso python e um
+# contendo estudantes do curso java.
+
+estudante_python = {'marcos', 'patricia', 'ellen', 'pedro', 'julia', 'guilherme'}
+estudante_java = {'fernando', 'gustavo', 'julia', 'ana', 'patricia'}
+
+#veja que alguns alunos que estudam python tambem estudam java.
+
+#gerar um conjunto de estudantes que estão em ambos os cursos
+
+#forma 1 - ultilizando interrsection
+# importante
+ambos1 = estudante_python.intersection(estudante_java)
+print(ambos1)
