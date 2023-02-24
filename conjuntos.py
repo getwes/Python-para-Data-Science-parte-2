@@ -169,3 +169,8 @@ estudante_java = {'fernando', 'gustavo', 'julia', 'ana', 'patricia'}
 
 unicos1 = estudante_python.union(estudante_java) # mesmo que inverter os estrudantes e seu curso ira dar o mesmo resultado.
 print(unicos1)
+
+# forma 2 - ultilizando o carcter pipe |
+
+unicos2 = estudante_python | estudante_java
+print(unicos2)
