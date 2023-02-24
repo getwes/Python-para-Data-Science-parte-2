@@ -137,3 +137,10 @@ s = {1, 2, 3}
 print(s)
 
 # forma 2 -shallow copy
+
+novo = s
+
+novo.add(4)
+
+print(novo)
+print(s)
