@@ -161,3 +161,10 @@ estudante_python = {'marcos', 'patrcia', 'ellen', 'pedro', 'julia', 'guilherme'}
 estudante_java = {'fernando', 'gustava', 'julia', 'ana', 'patricia'}
 
 #veja que alguns alunos que estudam python tambem estudam java.
+
+#precisamos gerar um conjunto com nomes de estudantes unicos
+
+# forma 1 - ultilizando union
+
+unicos1 = estudante_python.union(estudante_java)
+print(unicos1)
