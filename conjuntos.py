@@ -181,3 +181,8 @@ estudante_java = {'fernando', 'gustavo', 'julia', 'ana', 'patricia'}
 # importante
 ambos1 = estudante_python.intersection(estudante_java)
 print(ambos1)
+
+#forma 2 - ultilizando o & 
+
+ambos2 = estudante_python & estudante_java
+print(ambos2)
