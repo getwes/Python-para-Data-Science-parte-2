@@ -132,7 +132,6 @@ novo.add(4)
 print(novo)
 print(s)
 
-"""
 s = {1, 2, 3}
 print(s)
 
@@ -144,3 +143,21 @@ novo.add(4)
 
 print(novo)
 print(s)
+
+s = {1, 2, 3}
+print(s)
+
+# podemos remover todos os itens de um conjunto
+
+s.clear()
+print(s)
+"""
+# metodos matematicos de conjunto
+
+#imaigne que temos dois conjuntos um contendo estudantes do curso python e um
+# contendo estudantes do curso java.
+
+estudante_python = {'marcos', 'patrcia', 'ellen', 'pedro', 'julia', 'guilherme'}
+estudante_java = {'fernando', 'gustava', 'julia', 'ana', 'patricia'}
+
+#veja que alguns alunos que estudam python tambem estudam java.
