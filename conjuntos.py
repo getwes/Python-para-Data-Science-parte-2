@@ -187,3 +187,10 @@ print(ambos2)
 estudante_python = {'marcos', 'patricia', 'ellen', 'pedro', 'julia', 'guilherme'}
 estudante_java = {'fernando', 'gustavo', 'julia', 'ana', 'patricia'}
 
+# gerar um conjunto de estudantes que não estão no outro curso
+
+so_python = estudante_python.difference(estudante_java)
+print(so_python)
+
+so_java = estudante_python.difference(estudante_python)
+print(so_java)
