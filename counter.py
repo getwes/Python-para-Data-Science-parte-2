@@ -11,3 +11,7 @@ de ocorrencias desse elemento.
 # ultilizando o counter
 
 from collections import Counter
+# podemos ultilizar qualquer interavel, aqui usando uma lista
+lista = [1, 1, 1, 2, 2, 3, 3, 3, 3, 1, 1, 2, 2, 4, 4, 4, 5, 5, 5, 5, 5, 5, 3, 45, 45, 66, 66, 43, 34, 100]
+
+res = Counter(lista)
