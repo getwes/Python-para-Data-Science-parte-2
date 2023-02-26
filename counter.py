@@ -18,3 +18,6 @@ res = Counter(lista)
 
 print(type(res))
 print(res)
+
+#Counter({5: 6, 1: 5, 3: 5, 2: 4, 4: 3, 45: 2, 66: 2, 43: 1, 34: 1, 100: 1})
+
