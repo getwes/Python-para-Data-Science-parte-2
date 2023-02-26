@@ -38,3 +38,9 @@ Um breve comentário antes de começarmos: um Jupyter Notebook com todos os cód
 O banco de dados e os códigos SQL usados aqui são todos provenientes da minha série Introduction to SQL (Introdução ao SQL) publicada (em inglês) no site Towards Data Science (entre em contato se tiver algum problema para visualizar os artigos e eu enviarei um link para que eles possam ser acessados gratuitamente).
 Se não está acostumado com SQL e com os conceitos subjacentes aos bancos de dados relacionais, eu indicaria essa série (além disso, é claro que há uma enorme quantidade de artigos excelentes disponíveis aqui no freeCodeCamp!)
 """
+
+palavras = texto.split()
+
+print(type(palavras))
+
+print(palavras)

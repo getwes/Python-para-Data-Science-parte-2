@@ -136,7 +136,7 @@ print(nova)
 nova = nova * 3
 print(nova)
 
-#podemos facilmente uma string para uma lista
+#podemos facilmente trasformar uma string para uma lista
 #exemplo 1
 
 curso = 'programação em python: essencial'
