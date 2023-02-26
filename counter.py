@@ -48,3 +48,5 @@ palavras = texto.split()
 res = Counter(palavras)
 
 print(res)
+# encontrando as 5 palavras com mais occorencia no text.
+print(res.most_common(5))#most_common = quantas mais comuns
