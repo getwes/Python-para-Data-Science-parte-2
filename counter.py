@@ -31,3 +31,5 @@ print(Counter('wesley da silva freire'))
 """
 from collections import Counter
 
+# exmplo 3
+
