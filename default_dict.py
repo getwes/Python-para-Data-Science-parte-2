@@ -1,0 +1,3 @@
+"""
+modulo collections - default dict
+"""
