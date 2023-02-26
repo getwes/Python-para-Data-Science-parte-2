@@ -15,5 +15,13 @@ default dict -> ao criar um dicionario ultilizando-o, nos informamos um valor de
 podendo utilizar um lambda para isso. este valor sera utilizado sempre que não houver
 um valor definido. caso tentemos acessar uma chve que não existe, essa chave sera 
 criada e o valor default sera attribuido.
-"""
 
+obs: lambedas são funçoes sem nome, que podem ou não receber parametros de entrada
+e retornar valores.
+"""
+#fazendo import
+from collections import defaultdict
+
+dicionario = defaultdict(lambda: 0)
+
+print(dicionario)
