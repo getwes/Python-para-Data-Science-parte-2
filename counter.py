@@ -27,4 +27,4 @@ print(res)
 """
 from collections import Counter
 
-print(Counter)
+print(Counter('wesley da silva freire'))
