@@ -24,8 +24,10 @@ print(res)
 
 #veja que, para cada elemento da lista, o counter criou uma chave e colocou como valor a quantidade de ocorrencias.
 
+#exemplo 2
+print(Counter('wesley da silva freire'))
+#Counter({'e': 4, ' ': 3, 's': 2, 'l': 2, 'a': 2, 'i': 2, 'r': 2, 'w': 1, 'y': 1, 'd': 1, 'v': 1, 'f': 1})
+
 """
 from collections import Counter
 
-print(Counter('wesley da silva freire'))
-#Counter({'e': 4, ' ': 3, 's': 2, 'l': 2, 'a': 2, 'i': 2, 'r': 2, 'w': 1, 'y': 1, 'd': 1, 'v': 1, 'f': 1})
