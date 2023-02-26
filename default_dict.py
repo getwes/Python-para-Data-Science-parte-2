@@ -1,6 +1,8 @@
 """
 modulo collections - default dict
 
+https://docs.python.org/3/library/collections.html#collections.defaultdict
+
 # recap dicionarios
 
 dicionario = {'curso': 'programação em python: essencial'}
@@ -23,5 +25,10 @@ e retornar valores.
 from collections import defaultdict
 
 dicionario = defaultdict(lambda: 0)
+
+dicionario['curso'] = 'programação em pythn: essencial'
+print(dicionario)
+
+print(dicionario['outro']) # key error no dicionario comum, mas aqui não.
 
 print(dicionario)
