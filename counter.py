@@ -21,3 +21,4 @@ print(res)
 
 #Counter({5: 6, 1: 5, 3: 5, 2: 4, 4: 3, 45: 2, 66: 2, 43: 1, 34: 1, 100: 1})
 
+#veja que, para cada elemento da lista, o counter criou uma chave e colocou como valor a quantidade de ocorrencias.
