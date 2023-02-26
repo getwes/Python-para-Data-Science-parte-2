@@ -50,3 +50,7 @@ res = Counter(palavras)
 print(res)
 # encontrando as 5 palavras com mais occorencia no text.
 print(res.most_common(5))#most_common = quantas mais comuns
+
+ #qual quer duvida
+ #https://docs.python.org/3/library/collections.html
+ #<3
