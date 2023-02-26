@@ -41,6 +41,10 @@ Se não está acostumado com SQL e com os conceitos subjacentes aos bancos de da
 
 palavras = texto.split()
 
-print(type(palavras))
+#print(type(palavras))
 
-print(palavras)
+#print(palavras)
+
+res = Counter(palavras)
+
+print(res)
