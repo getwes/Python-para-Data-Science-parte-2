@@ -25,3 +25,6 @@ print(res)
 #veja que, para cada elemento da lista, o counter criou uma chave e colocou como valor a quantidade de ocorrencias.
 
 """
+from collections import Counter
+
+print(Counter)
