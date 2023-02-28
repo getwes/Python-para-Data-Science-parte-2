@@ -41,3 +41,5 @@ odict1 = OrderedDict({'a': 1, 'b': 2})
 odict2 = OrderedDict({'b': 2, 'a': 1})
 
 print( odict1 == odict2) # false -> ja que a ordem dos elementos importa para o ordereddict
+
+#https://docs.python.org/3/library/collections.html#collections.OrderedDict
