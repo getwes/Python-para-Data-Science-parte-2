@@ -5,3 +5,10 @@
 dicionario = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
 
 print(dicionario)
+
+for chave, valor in dicionario.items():
+    print(f'chave={chave}:valor={valor}')
+
+#print(dicionario.keys())
+#print(dicionario.values())
+#print(dicionario.items())
