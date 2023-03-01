@@ -1,2 +1,3 @@
 """
+modulo collection - named tuple
 """
