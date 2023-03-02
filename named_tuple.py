@@ -8,5 +8,9 @@ print(tupla[1])
 
 named tuple -> são tuplas, difereciada, onde, especificamos um nome para a mesma e tambem parametros.
 """
+# import
 
+from collections import namedtuple
+
+#precisoamos definir
 
