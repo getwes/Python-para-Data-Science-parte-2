@@ -14,6 +14,8 @@ from collections import namedtuple
 
 #precisoamos definir o nome e parametros.
 
-#forma 1
+#forma 1 - declaração named tuple
 
 cachorro = namedtuple('cachorro', 'idade raca nome')
+
+#forma 2 - declaração named tuple
