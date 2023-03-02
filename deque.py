@@ -20,3 +20,7 @@ print(deq)
 deq.append('f') # adciciona no final
 
 print(deq)
+
+deq.appendleft('s') # adciona no começo
+
+print(deq)
