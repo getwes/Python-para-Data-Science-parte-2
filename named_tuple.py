@@ -1,4 +1,5 @@
 """
+basicamento é para nomear uma tupla
 modulo collection - named tuple
 
 #recap tupla
@@ -48,3 +49,6 @@ print(ray.nome) # nome
 print(ray.index('chow-chow'))# qual o indice
 
 print(ray.count('chow-chow')) # quantas ocorrencias
+
+#qual quer coisa pesquisar
+#https://docs.python.org/3/library/collections.html#collections.namedtuple
