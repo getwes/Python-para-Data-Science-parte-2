@@ -24,7 +24,7 @@ cachorro = namedtuple('cachorro', 'idade, raca, nome')
 
 #forma 3 - declaração named tuple
 
-cachorro = namedtuple(('cachorro', ['idade', 'raca', 'nome']))
+cachorro = namedtuple('cachorro', ['idade', 'raca', 'nome'])
 
 #usando
 ray = cachorro(idade=2, raca='chow-chow', nome='ray')
