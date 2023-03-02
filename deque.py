@@ -34,3 +34,7 @@ print(deq)
 print(deq.popleft()) # remove e retorna o primenro elemento
 
 print(deq)
+
+#Em duvida pesquisar
+
+#https://docs.python.org/3/library/collections.html#collections.deque
