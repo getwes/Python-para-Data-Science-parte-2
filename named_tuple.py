@@ -31,6 +31,20 @@ ray = cachorro(idade=2, raca='chow-chow', nome='ray')
 
 print(ray)
 
+#acessando os dados
+
+#forma 1
+
 print(ray[0]) # idade
 print(ray[1]) # raça
 print(ray[2]) # nome
+
+#forma 2
+
+print(ray.idade) # idade
+print(ray.raca) # raça
+print(ray.nome) # nome
+
+print(ray.index('chow-chow'))# qual o indice
+
+print(ray.count('chow-chow')) # quantas ocorrencias
