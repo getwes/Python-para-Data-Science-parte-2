@@ -14,3 +14,9 @@ from collections import deque
 deq = deque('wesley')
 
 print(deq)
+
+#adcionando elementos no deque
+
+deq.append('f') # adciciona no final
+
+print(deq)
