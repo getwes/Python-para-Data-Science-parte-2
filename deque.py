@@ -24,3 +24,9 @@ print(deq)
 deq.appendleft('s') # adciona no começo
 
 print(deq)
+
+#remover elementos
+
+print(deq.pop()) # remove e retorna o ultimo elemento
+
+print(deq)
