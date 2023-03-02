@@ -30,3 +30,7 @@ print(deq)
 print(deq.pop()) # remove e retorna o ultimo elemento
 
 print(deq)
+
+print(deq.popleft()) # remove e retorna o primenro elemento
+
+print(deq)
