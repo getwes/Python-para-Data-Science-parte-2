@@ -15,7 +15,7 @@ from collections import namedtuple
 #precisoamos definir o nome e parametros.
 
 #forma 1 - declaração named tuple
-
+#tipo - cachorro
 cachorro = namedtuple('cachorro', 'idade raca nome')
 
 #forma 2 - declaração named tuple
@@ -30,3 +30,7 @@ cachorro = namedtuple('cachorro', ['idade', 'raca', 'nome'])
 ray = cachorro(idade=2, raca='chow-chow', nome='ray')
 
 print(ray)
+
+print(ray[0]) # idade
+print(ray[1]) # raça
+print(ray[2]) # nome
