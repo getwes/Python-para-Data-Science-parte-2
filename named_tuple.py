@@ -12,5 +12,8 @@ named tuple -> são tuplas, difereciada, onde, especificamos um nome para a mesm
 
 from collections import namedtuple
 
-#precisoamos definir
+#precisoamos definir o nome e parametros.
 
+#forma 1
+
+cachorro = namedtuple('cachorro', 'idade raca nome')
