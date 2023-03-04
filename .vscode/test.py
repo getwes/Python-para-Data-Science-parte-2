@@ -80,3 +80,13 @@ for i, produto in enumerate(produtos):
 dados = produtos.copy()
 print(dados)
 
+
+def diz_oi():
+    return 'oi'
+
+def diz_tudo_bem():
+    return 'tudo bem ?'
+
+print(f'retorno de {diz_oi()}  {diz_tudo_bem()}')
+
+print(35 % 2)
