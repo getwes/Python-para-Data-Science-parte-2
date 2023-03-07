@@ -68,3 +68,17 @@ print(outra(4, 5, 'python '))
 #print(soma(2, 3, 4)) # typeError - passando argumentos a mais
 #print(soma(4)) # typeError - passando argumentos a menos
 """
+# nomeando parametro
+
+
+def nome_completo(nome, sobrenome):
+    return f'seu nome completo é {nome}{sobrenome}'
+
+print(nome_completo('wesley ', 'freire'))
+
+# a diferença entre parametros e argumentos
+
+#parametros são variaveis declaradas na definição de uma função;
+#argumentos são dados passados durante a execução de uma função;
+
+# a ordem dos parametros importa
