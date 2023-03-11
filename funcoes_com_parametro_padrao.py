@@ -30,7 +30,6 @@ print(exponencial(3, 5)) # eleve á potencia informada pelo usuario
 
 print(exponencial())
 
-"""
 #obs: em função python, os parametros com valor default (padrão) DEVEM sempre esta ao final da declaração.
 
 #erro
@@ -39,3 +38,39 @@ def teste(num=2, potencia): #caso queira concluir essa operação so inverter nu
 
 print(teste(6))
    
+# outros exemplos
+
+def soma(num1, num2):
+    return num1 + num2
+
+print(soma(1, 3))
+print(soma(4))#typeError
+print(soma())#typeError
+
+
+def soma(num1=5, num2=3):
+    return num1 + num2
+
+print(soma(1, 3))
+print(soma(4))
+print(soma())
+
+#exemplo mais complexo
+
+def mostra_informacao(nome='wesley', instrutor=False):
+    if nome == 'wesley' and instrutor:
+        return f'bem vindo instrutor {nome}'
+    elif nome == 'wesley':
+        return 'pensei que era o instrutor'
+    return f'ola {nome}'
+
+print(mostra_informacao())
+print(mostra_informacao(instrutor=True))
+print(mostra_informacao('ozzy'))
+
+# por que ultilizar parametros com valor default?
+
+- nos permite ser mais flexiveis na função;
+- evita erros com parametros incorretos;
+- nos permite trabalhar com exemplos mais legiveis de codigos;
+"""
