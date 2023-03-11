@@ -14,8 +14,28 @@ def quadrado(numero):
     
 print(quadrado(3))
 print(quadrado()) # typeError
-"""
-def exponencial(numero, potencia):
+
+def exponencial(numero=4, potencia=2): # quando passo esse =2 faz com oque o parametro seja ou não opicional
     return numero ** potencia
 
-print(exponencial(2, 3)) # 2 * 2 * 2
+print(exponencial(2, 3)) # 2 * 2 * 2 = 8
+print(exponencial(3, 2)) # 3 * 3 = 9
+
+print(exponencial(3)) #por padrão eleve ao quadrado
+print(exponencial(3, 5)) # eleve á potencia informada pelo usuario
+#obs
+# se o usuario passar somente 1 argumento, este sera atribuido ao parametro numero, e sera calculado o quadrado deste numero;
+# se o usuario passar 2 argumentos, o primero sera atribuido ao parametro numero e o segundo ao parametro potencia. então
+#sera calculada a esta potencia.
+
+print(exponencial())
+
+"""
+#obs: em função python, os parametros com valor default (padrão) DEVEM sempre esta ao final da declaração.
+
+#erro
+def teste(num=2, potencia): #caso queira concluir essa operação so inverter num e potencia
+    return num ** potencia
+
+print(teste(6))
+   
