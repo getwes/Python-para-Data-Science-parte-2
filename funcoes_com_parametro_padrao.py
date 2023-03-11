@@ -73,4 +73,80 @@ print(mostra_informacao('ozzy'))
 - nos permite ser mais flexiveis na função;
 - evita erros com parametros incorretos;
 - nos permite trabalhar com exemplos mais legiveis de codigos;
+
+#quais tipos de dados podemos ultilizar como valores default para parametro?
+
+-qualquer tipo de dado:
+- numeros, strings, floats, booleanos, listas, tuplas, dicionarios, funçoes e etc;
+
+# exemplos
+
+def soma(num1, num2):
+    return num1 + num2
+
+def mat(num1, num2, fun=soma):
+    return fun(num1, num2)
+
+def subtracao(num1 , num2):
+    return num1 - num2
+
+print(mat(2, 3))
+print(mat(2, 3, subtracao))
+
+# escopo - evitar problemas e confusões
+
+#variaveis globais
+#variaveis locais
+
+instrutor = 'wesley' # varaivel global
+
+def diz_oi():
+    instrutor = 'python' # variavel local
+    return f'oi {instrutor}'
+
+print(diz_oi())
+
+#obs: se tivermos uma variavel local com o mesmo nome de uma varaivel global, a local tera preferencia.
+
+def diz_oi():
+    prof = 'geek' #varaivel local
+    return f'ola {prof}'
+
+print(diz_oi())
+
+print(prof) # nameError
+
+# ATENÇÃO com variveis globais (se puder evitar, evite!)
+
+total = 0
+
+def incremeto():
+    total = total + 1 #UnboundLocalError( a variavel local esta sendo utilizada para processamento sem ter sido inicializada)
+    return total
+
+print(incremeto())
+
+# resolvendo
+
+total = 0
+
+def incremeto():
+    global total # avisando que queremos utilizar a variavel global
+    total = total + 1 
+    return total
+
+print(incremeto())
+print(incremeto())
+print(incremeto())
 """
+# podemos ter funções que são decladas dentro de funções, e tambem tem uma forma especial de escopo de variavel
+
+def fora():
+    contador = 0
+    def dentro():
+        nonlocal contador
+        contador = contador + 1
+        return contador
+    return dentro()
+
+print(fora())
