@@ -1,0 +1,3 @@
+"""
+documentando funçõs com docstrings
+"""
