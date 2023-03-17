@@ -58,3 +58,19 @@ print(verifica_info(1 , 'freire', 3.145))
 
 def soma_todos_numeros(*args):
     return sum(args)
+
+
+#print(soma_todos_numeros())
+#print(soma_todos_numeros(3, 4, 5, 6))
+
+numeros = [1, 2, 3, 4, 5, 6, 7]
+
+# desempacotador 
+
+# o * serve como desempacotador pois estou utilizando uma lista
+
+print(soma_todos_numeros(*numeros))
+
+#obs: o asterisco serve para que informemos oa python que estamos
+#passando como argumento uma coleção de dados. desta forma, ele saberá
+#que precisará antes desempacotar este dados.
