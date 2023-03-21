@@ -55,10 +55,8 @@ elif pais == ru:
 else:
     print(' não encontrei seu pais')
 
-"""
-
-
-produtos = ["ABC123", "acd012", " ABS111", "AbB222"]
+    
+    produtos = ["ABC123", "acd012", " ABS111", "AbB222"]
 
 #texto = "abd012"
 #texto = texto.upper() # upper() serve para trasformar as letras minusculas em maiusculas
@@ -90,3 +88,5 @@ def diz_tudo_bem():
 print(f'retorno de {diz_oi()}  {diz_tudo_bem()}')
 
 print(35 % 2)
+"""
+
