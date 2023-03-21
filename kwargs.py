@@ -10,7 +10,8 @@ parametros extras em um dicionario.
 #exemplo
 
 def cores_favoritas(**kwargs):
-    print(kwargs)
+    for pessoa, cor in kwargs.items():
+        print(f'a cor favorita de {pessoa} é {cor}')
 
 
 cores_favoritas(marcos='verde', julia='amarelo', fernanda='azul', vanessa='branco')
