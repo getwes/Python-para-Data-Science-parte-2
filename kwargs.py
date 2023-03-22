@@ -33,5 +33,12 @@ print(cumprimento_especial())
 print(cumprimento_especial(wesley='python'))
 print(cumprimento_especial(wesley='oi'))
 print(cumprimento_especial(geek='especial'))
+
+# nas nossas funçoes podemos ter (NESTA ORDEM):
+
+-parametros obrigatorios;
+- *args;
+-parametros default (não obrigatorios);
+--**kwargs
 """
 
