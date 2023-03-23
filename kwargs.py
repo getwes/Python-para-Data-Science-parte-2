@@ -41,4 +41,5 @@ print(cumprimento_especial(geek='especial'))
 -parametros default (não obrigatorios);
 --**kwargs
 """
-
+def minha_funcao(idade, nome, *args, solteiro=false, **kwargs):
+    print(f'')
