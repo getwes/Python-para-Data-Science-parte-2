@@ -78,7 +78,8 @@ casado
 """
 # entenda por quer é importante manter a ordem dos parametrosd na declaração
 
-def mostra_info(a, b, *args, instrutor='geek', **kwargs):
+#função com a ordem correta de parametros
+def mostra_info(a, b, *args, instrutor='geek', **kwargs): #os parametros feito de forma errada pode ocorrer uma quebra no resultado
     return [a, b, args, instrutor, kwargs]
 
 """
