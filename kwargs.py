@@ -40,6 +40,52 @@ print(cumprimento_especial(geek='especial'))
 - *args;
 -parametros default (não obrigatorios);
 --**kwargs
+
+def minha_funcao(idade, nome, *args, solteiro=False, **kwargs):
+    print(f'{nome} tem {idade} anos')
+    print(args)
+    if solteiro:
+        print('solteiro')
+    else:
+        print('casado')
+    print(kwargs)
+
+
+minha_funcao(8, 'julia')
+minha_funcao(18, 'felicity' , 4, 5, 3, solteiro=True)
+minha_funcao(34, 'felipe', eu='não', voce='vai')
+minha_funcao(19, 'carla', 9, 4, 3, java=False, python=True)
+
+#resultado
+
+julia tem 8 anos
+()
+casado
+{}
+felicity tem 18 anos
+(4, 5, 3)
+solteiro
+{}
+felipe tem 34 anos
+()
+casado
+{'eu': 'n�o', 'voce': 'vai'}
+carla tem 19 anos
+(9, 4, 3)
+casado
+{'java': False, 'python': True}
+
 """
-def minha_funcao(idade, nome, *args, solteiro=false, **kwargs):
-    print(f'')
+# entenda por quer é importante manter a ordem dos parametrosd na declaração
+
+def mostra_info(a, b, *args, instrutor='geek', **kwargs):
+    return [a, b, args, instrutor, kwargs]
+
+"""
+a = 1
+b = 2
+args = (3,)
+instrutor ='geek'
+kwargs = {'sobrenome': 'university', 'cargo': 'instrutor'}
+"""
+print(mostra_info(1, 2, 3, sobrenome='university', cargo='instrutor'))
