@@ -75,18 +75,51 @@ carla tem 19 anos
 casado
 {'java': False, 'python': True}
 
-"""
 # entenda por quer é importante manter a ordem dos parametrosd na declaração
 
 #função com a ordem correta de parametros
 def mostra_info(a, b, *args, instrutor='geek', **kwargs): #os parametros feito de forma errada pode ocorrer uma quebra no resultado
     return [a, b, args, instrutor, kwargs]
 
-"""
+
 a = 1
 b = 2
 args = (3,)
 instrutor ='geek'
 kwargs = {'sobrenome': 'university', 'cargo': 'instrutor'}
-"""
+
 print(mostra_info(1, 2, 3, sobrenome='university', cargo='instrutor'))
+
+#desempacotar com **kwargs
+#IMPORTANTE
+def mostra_nomes(**kwargs):
+    return f"{kwargs['nome']} {kwargs['sobrenome']}"
+
+nomes = {'nome': 'felicity', 'sobrenome': 'jones'}
+
+print(mostra_nomes(**nomes))
+"""
+def soma_multiplos_numeros(a, b, c,  **kwargs):
+    print(a + b + c)
+
+lista = [1, 2, 3]
+tupla = (1, 2, 3)
+conjunto = {1, 2, 3}
+
+soma_multiplos_numeros(*lista)
+soma_multiplos_numeros(*tupla)
+soma_multiplos_numeros(*conjunto)
+
+dicionario = dict(a=1, b=2, c=3)
+
+soma_multiplos_numeros(**dicionario)
+
+#obs os nomes da chave em um dicionario devem ser o mesmo dos parametros da função
+
+#dicionario = dict(d=1, e=2, f=3) # type Error
+
+#soma_multiplos_numeros(**dicionario)
+
+#dicionario = dict(a=1, b=2, c=3, nome='geek')
+
+#soma_multiplos_numeros(**dicionario, lang='python')
